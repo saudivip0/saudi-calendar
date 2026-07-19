@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0a7d32">
+  <title>مواعيد السعودية الرسمية</title>
+  <meta name="description" content="تقويم سعودي لمواعيد الرواتب والإجازات والتقويم الدراسي والمناسبات الوطنية والإسلامية.">
+  <style>
+    :root{
+      --green:#0a7d32;
+      --green2:#0f9f46;
+      --bg:#f4f7f5;
+      --card:#ffffff;
+      --text:#17211b;
+      --muted:#617067;
+      --border:#dce6df;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Tahoma,Arial,sans-serif;
+      background:linear-gradient(180deg,#edf8f0 0%,var(--bg) 48%,#fff 100%);
+      color:var(--text);
+      min-height:100vh;
+    }
+    .wrap{max-width:760px;margin:auto;padding:28px 18px 48px}
+    .hero{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:24px;
+      padding:30px 24px;
+      box-shadow:0 14px 40px rgba(15,70,33,.08);
+      text-align:center;
+    }
+    .flag{font-size:54px;line-height:1;margin-bottom:14px}
+    h1{font-size:30px;margin:0 0 10px}
+    .lead{font-size:17px;color:var(--muted);line-height:1.9;margin:0 auto 24px;max-width:590px}
+    .btn{
+      display:block;
+      width:100%;
+      max-width:430px;
+      margin:12px auto;
+      padding:16px 20px;
+      border-radius:15px;
+      text-decoration:none;
+      font-size:18px;
+      font-weight:750;
+      border:1px solid transparent;
+    }
+    .primary{background:linear-gradient(135deg,var(--green),var(--green2));color:#fff}
+    .secondary{background:#fff;color:var(--green);border-color:#b8d8c2}
+    .note{
+      margin-top:18px;
+      font-size:14px;
+      color:var(--muted);
+      line-height:1.8;
+    }
+    .grid{display:grid;gap:14px;margin-top:20px}
+    .item{
+      background:rgba(255,255,255,.88);
+      border:1px solid var(--border);
+      border-radius:18px;
+      padding:18px;
+    }
+    .item h2{font-size:18px;margin:0 0 7px}
+    .item p{margin:0;color:var(--muted);line-height:1.8}
+    footer{text-align:center;color:#7c8981;font-size:13px;margin-top:26px;line-height:1.8}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="flag">🇸🇦</div>
+      <h1>مواعيد السعودية الرسمية</h1>
+      <p class="lead">
+        تقويم موحّد لمواعيد الرواتب ومعاشات التقاعد والإجازات المدرسية
+        والمناسبات الوطنية والإسلامية والفصول.
+      </p>
+
+      <a class="btn primary"
+         href="webcal://saudivip0.github.io/saudi-calendar/saudi-calendar.ics">
+        الاشتراك في التقويم
+      </a>
+
+      <a class="btn secondary"
+         href="https://saudivip0.github.io/saudi-calendar/saudi-calendar.ics">
+        تنزيل ملف التقويم
+      </a>
+
+      <p class="note">
+        للاشتراك والتحديث التلقائي استخدم زر «الاشتراك في التقويم».
+        أما زر التنزيل فيضيف نسخة ثابتة لا تتحدث تلقائيًا.
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="item">
+        <h2>على iPhone وiPad وMac</h2>
+        <p>اضغط «الاشتراك في التقويم»، ثم وافق على إضافة التقويم المشترك.</p>
+      </div>
+      <div class="item">
+        <h2>المشاركة مع الآخرين</h2>
+        <p>شارك رابط هذه الصفحة، وسيتمكن أي شخص من الاشتراك من جهازه.</p>
+      </div>
+      <div class="item">
+        <h2>التحديثات</h2>
+        <p>عند تحديث ملف التقويم في GitHub تصل التغييرات لاحقًا إلى المشتركين حسب دورة تحديث تطبيق التقويم.</p>
+      </div>
+    </section>
+
+    <footer>
+      بعض المواعيد الهجرية موضحة بأنها متوقعة وقد تتغير بحسب الإعلان الرسمي وثبوت رؤية الهلال.
+    </footer>
+  </main>
+</body>
+</html>
