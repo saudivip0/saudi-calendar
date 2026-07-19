@@ -65,7 +65,7 @@
 <script>
 const ORIGIN=location.origin;
 const state={all:[],filtered:[]};
-const fmtDate=d=>new Intl.DateTimeFormat('ar-SA',{weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(d);
+const fmtDate=d=>new Intl.DateTimeFormat('ar-SA-u-ca-gregory',{weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(d);
 const daysBetween=(a,b)=>Math.ceil((b-a)/86400000);
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
 
@@ -100,8 +100,8 @@ function render(){
   document.getElementById('resultCount').textContent=`${future.length} نتيجة`;
   document.getElementById('events').innerHTML=future.length?future.map(e=>{
     const d=new Date(e.date+'T00:00:00');
-    const day=new Intl.DateTimeFormat('ar-SA',{day:'numeric'}).format(d);
-    const month=new Intl.DateTimeFormat('ar-SA',{month:'short'}).format(d);
+    const day=new Intl.DateTimeFormat('ar-SA-u-ca-gregory',{day:'numeric'}).format(d);
+    const month=new Intl.DateTimeFormat('ar-SA-u-ca-gregory',{month:'short'}).format(d);
     const certainty=e.certainty==='expected'?'متوقع':e.certainty==='confirmed'?'مؤكد':'مجدول';
     return `<article class="event"><div class="date">${day}<small>${month}</small></div><div><h3>${esc((e.emoji||'')+' '+e.title)}</h3><p>${esc(fmtDate(d))} · ${esc(e.source)}</p></div><span class="tag ${e.certainty==='expected'?'expected':''}">${certainty}</span></article>`
   }).join(''):'<article class="event msg">لا توجد نتائج مطابقة.</article>';
@@ -117,7 +117,7 @@ async function loadEvents(retries=1){
     const categories=[...new Set(state.all.map(e=>e.category))];
     document.getElementById('eventCount').textContent=state.all.length;
     document.getElementById('categoryCount').textContent=categories.length;
-    document.getElementById('updated').textContent=new Date(data.updatedAt).toLocaleDateString('ar-SA',{day:'numeric',month:'short'});
+    document.getElementById('updated').textContent=new Date(data.updatedAt).toLocaleDateString('ar-SA-u-ca-gregory',{day:'numeric',month:'short'});
     document.getElementById('category').innerHTML='<option value="">جميع التصنيفات</option>'+categories.map(c=>`<option>${esc(c)}</option>`).join('');
     const now=new Date();now.setHours(0,0,0,0);
     const important=['راتب موظفي الدولة','معاش التقاعد','بداية الدراسة للطلاب','اليوم الوطني'];
