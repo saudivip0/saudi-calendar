@@ -1,24 +1,29 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Saudi Calendar//Saudi Calendar 3.0//AR
+PRODID:-//Saudi Calendar//Saudi Calendar 3.1//AR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:التقويم السعودي — المناسبات الإسلامية
-X-WR-CALDESC:مواعيد المناسبات الإسلامية من التقويم السعودي.
+X-WR-CALNAME:التقويم السعودي — المناسبات الإس
+ لامية
+X-WR-CALDESC:مواعيد المناسبات الإسلامية من الت
+ قويم السعودي.
 X-WR-TIMEZONE:Asia/Riyadh
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:a772fa65-64d6-4835-8b00-41ccdb68b19a@openai.local
-DTSTAMP:20260719T025304Z
+UID:a772fa65-64d6-4835-8b00-41ccdb68b19a@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 SUMMARY:🕌 بداية شهر رمضان 1448هـ
-DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وقد يتغير يومًا بحسب ثبوت رؤي
- ة الهلال.\nالتصنيف: المناسبات الإسلامية\nالحالة: متوقع\nالمصدر المرجعي: 
- تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
- تمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
- p0o.workers.dev
+DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وق
+ د يتغير يومًا بحسب ثبوت رؤية الهلال.\nالت
+ صنيف: المناسبات الإسلامية\nالحالة: متوقع\
+ nالمصدر المرجعي: تقويم أم القرى والإعلان 
+ الرسمي\nتنبيه: هذا تقويم مستقل، وعند التع
+ ارض يُعتمد إعلان الجهة الرسمية المختصة.\n
+ الموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -29,16 +34,20 @@ DESCRIPTION:🕌 بداية شهر رمضان 1448هـ
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:48ec8171-cda2-4a46-9956-482245c9c883@openai.local
-DTSTAMP:20260719T025304Z
+UID:48ec8171-cda2-4a46-9956-482245c9c883@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270314
 SUMMARY:🕌 إجازة عيد الفطر للمدارس
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: المناسبات الإسلامية\nالحالة:
-  مجدول\nالمصدر المرجعي: تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم
-  مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https:
- //saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: المناسبات الإسلا
+ مية\nالحالة: مجدول\nالمصدر المرجعي: تقويم 
+ أم القرى والإعلان الرسمي\nتنبيه: هذا تقوي
+ م مستقل، وعند التعارض يُعتمد إعلان الجهة
+  الرسمية المختصة.\nالموقع: https://saudi-calendar.saud
+ ivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -49,16 +58,19 @@ DESCRIPTION:🕌 إجازة عيد الفطر للمدارس
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8ac060f1-d4e3-4efc-acda-bcbf28cc34fe@openai.local
-DTSTAMP:20260719T025304Z
+UID:8ac060f1-d4e3-4efc-acda-bcbf28cc34fe@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:🕌 عيد الفطر 1448هـ
-DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وقد يتغير يومًا بحسب ثبوت رؤي
- ة الهلال.\nالتصنيف: المناسبات الإسلامية\nالحالة: متوقع\nالمصدر المرجعي: 
- تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
- تمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
- p0o.workers.dev
+DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وق
+ د يتغير يومًا بحسب ثبوت رؤية الهلال.\nالت
+ صنيف: المناسبات الإسلامية\nالحالة: متوقع\
+ nالمصدر المرجعي: تقويم أم القرى والإعلان 
+ الرسمي\nتنبيه: هذا تقويم مستقل، وعند التع
+ ارض يُعتمد إعلان الجهة الرسمية المختصة.\n
+ الموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -69,36 +81,45 @@ DESCRIPTION:🕌 عيد الفطر 1448هـ
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:23376190-4fa2-459d-8af1-079e5f0a7074@openai.local
-DTSTAMP:20260719T025304Z
+UID:23376190-4fa2-459d-8af1-079e5f0a7074@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270523
-SUMMARY:🕌 إجازة عيد الأضحى للمدارس – المدينة المنورة
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: المناسبات الإسلامية\nالحالة:
-  مجدول\nالمصدر المرجعي: تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم
-  مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https:
- //saudi-calendar.saudivip0o.workers.dev
+SUMMARY:🕌 إجازة عيد الأضحى للمدارس – المدين
+ ة المنورة
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: المناسبات الإسلا
+ مية\nالحالة: مجدول\nالمصدر المرجعي: تقويم 
+ أم القرى والإعلان الرسمي\nتنبيه: هذا تقوي
+ م مستقل، وعند التعارض يُعتمد إعلان الجهة
+  الرسمية المختصة.\nالموقع: https://saudi-calendar.saud
+ ivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:🕌 إجازة عيد الأضحى للمدارس – المدينة المنورة
+DESCRIPTION:🕌 إجازة عيد الأضحى للمدارس – المد
+ ينة المنورة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:b8e7b1ad-5467-4ea3-8979-27eb2c0fe42a@openai.local
-DTSTAMP:20260719T025304Z
+UID:b8e7b1ad-5467-4ea3-8979-27eb2c0fe42a@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🕌 يوم عرفة 1448هـ
-DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وقد يتغير يومًا بحسب ثبوت رؤي
- ة الهلال.\nالتصنيف: المناسبات الإسلامية\nالحالة: متوقع\nالمصدر المرجعي: 
- تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
- تمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
- p0o.workers.dev
+DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وق
+ د يتغير يومًا بحسب ثبوت رؤية الهلال.\nالت
+ صنيف: المناسبات الإسلامية\nالحالة: متوقع\
+ nالمصدر المرجعي: تقويم أم القرى والإعلان 
+ الرسمي\nتنبيه: هذا تقويم مستقل، وعند التع
+ ارض يُعتمد إعلان الجهة الرسمية المختصة.\n
+ الموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -109,16 +130,19 @@ DESCRIPTION:🕌 يوم عرفة 1448هـ
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:3f993a41-73cd-491f-a7ee-3239b9b000e1@openai.local
-DTSTAMP:20260719T025304Z
+UID:3f993a41-73cd-491f-a7ee-3239b9b000e1@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:🕌 عيد الأضحى 1448هـ
-DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وقد يتغير يومًا بحسب ثبوت رؤي
- ة الهلال.\nالتصنيف: المناسبات الإسلامية\nالحالة: متوقع\nالمصدر المرجعي: 
- تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
- تمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
- p0o.workers.dev
+DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وق
+ د يتغير يومًا بحسب ثبوت رؤية الهلال.\nالت
+ صنيف: المناسبات الإسلامية\nالحالة: متوقع\
+ nالمصدر المرجعي: تقويم أم القرى والإعلان 
+ الرسمي\nتنبيه: هذا تقويم مستقل، وعند التع
+ ارض يُعتمد إعلان الجهة الرسمية المختصة.\n
+ الموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

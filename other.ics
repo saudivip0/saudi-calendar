@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Saudi Calendar//Saudi Calendar 3.0//AR
+PRODID:-//Saudi Calendar//Saudi Calendar 3.1//AR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:التقويم السعودي — أخرى
@@ -9,15 +9,19 @@ X-WR-TIMEZONE:Asia/Riyadh
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:6fdc56fc-07a9-48ce-a3a4-204f71764476@openai.local
-DTSTAMP:20260719T025304Z
+UID:6fdc56fc-07a9-48ce-a3a4-204f71764476@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:بداية العام الهجري 1449هـ – متوقع
-DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وقد يتغير يومًا بحسب ثبوت رؤي
- ة الهلال.\nالتصنيف: أخرى\nالحالة: متوقع\nالمصدر المرجعي: الجهة الرسمية ا
- لمختصة\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية 
- المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وق
+ د يتغير يومًا بحسب ثبوت رؤية الهلال.\nالت
+ صنيف: أخرى\nالحالة: متوقع\nالمصدر المرجعي:
+  الجهة الرسمية المختصة\nتنبيه: هذا تقويم 
+ مستقل، وعند التعارض يُعتمد إعلان الجهة ا
+ لرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
+ p0o.workers.dev
 CATEGORIES:أخرى
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -28,23 +32,28 @@ DESCRIPTION:بداية العام الهجري 1449هـ – متوقع
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a5c7103b-494f-49a8-b7d1-8d569dd6d18e@openai.local
-DTSTAMP:20260719T025304Z
+UID:a5c7103b-494f-49a8-b7d1-8d569dd6d18e@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
-SUMMARY:بداية الإجازة الصيفية – المدينة المنورة
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: أخرى\nالحالة: مجدول\nالمصدر 
- المرجعي: الجهة الرسمية المختصة\nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
- تمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
- p0o.workers.dev
+SUMMARY:بداية الإجازة الصيفية – المدينة الم
+ نورة
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: أخرى\nالحالة: مجدو
+ ل\nالمصدر المرجعي: الجهة الرسمية المختصة\
+ nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
+ تمد إعلان الجهة الرسمية المختصة.\nالموقع:
+  https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:أخرى
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:بداية الإجازة الصيفية – المدينة المنورة
+DESCRIPTION:بداية الإجازة الصيفية – المدينة ا
+ لمنورة
 END:VALARM
 END:VEVENT
 END:VCALENDAR

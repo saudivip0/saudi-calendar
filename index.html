@@ -12,24 +12,25 @@
 <style>
 :root{--g:#075f2a;--g2:#0a8d42;--bg:#f4f8f5;--card:#fff;--text:#122019;--muted:#607067;--line:#dbe7df;--warn:#8a6a17}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Tahoma,Arial,sans-serif;background:linear-gradient(#e5f3e9 0,#f6faf7 360px,#fff 100%);color:var(--text)}
-.wrap{max-width:980px;margin:auto;padding:18px 16px 52px}.hero{background:linear-gradient(145deg,#064c22,#0a7c37);color:#fff;border-radius:28px;padding:32px 22px;box-shadow:0 18px 55px #075f2a2a}.top{display:flex;justify-content:space-between;gap:12px;align-items:center}.status{display:inline-flex;gap:8px;align-items:center;background:#ffffff17;border:1px solid #ffffff35;border-radius:999px;padding:8px 12px;font-size:13px}.dot{width:8px;height:8px;background:#75ff99;border-radius:50%;box-shadow:0 0 0 5px #75ff9922}.version{font-size:13px;color:#d8f2df}.hero h1{text-align:center;font-size:36px;margin:24px 0 8px}.lead{text-align:center;max-width:680px;margin:0 auto 22px;color:#eaf8ee;line-height:1.9}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:680px;margin:auto}.btn{border:0;border-radius:15px;padding:15px 16px;font-weight:800;font-size:16px;text-decoration:none;text-align:center;cursor:pointer}.primary{background:#fff;color:var(--g)}.ghost{background:#ffffff12;color:#fff;border:1px solid #ffffff4b}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.metric{background:#ffffff12;border:1px solid #ffffff20;border-radius:15px;padding:13px;text-align:center}.metric b{display:block;font-size:21px}.metric small{color:#d9eee0}
+.wrap{max-width:980px;margin:auto;padding:18px 16px 52px}.hero{background:linear-gradient(145deg,#064c22,#0a7c37);color:#fff;border-radius:28px;padding:32px 22px;box-shadow:0 18px 55px #075f2a2a}.top{display:flex;justify-content:space-between;gap:12px;align-items:center}.status{display:inline-flex;gap:8px;align-items:center;background:#ffffff17;border:1px solid #ffffff35;border-radius:999px;padding:8px 12px;font-size:13px}.dot{width:8px;height:8px;background:#75ff99;border-radius:50%;box-shadow:0 0 0 5px #75ff9922}.dot.err{background:#ff6b6b;box-shadow:0 0 0 5px #ff6b6b22}.version{font-size:13px;color:#d8f2df}.hero h1{text-align:center;font-size:36px;margin:24px 0 8px}.lead{text-align:center;max-width:680px;margin:0 auto 22px;color:#eaf8ee;line-height:1.9}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:680px;margin:auto}.btn{border:0;border-radius:15px;padding:15px 16px;font-weight:800;font-size:16px;text-decoration:none;text-align:center;cursor:pointer}.primary{background:#fff;color:var(--g)}.ghost{background:#ffffff12;color:#fff;border:1px solid #ffffff4b}.hint{text-align:center;font-size:12px;color:#d8f2df;margin-top:10px}.hint a{color:#fff;text-decoration:underline}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.metric{background:#ffffff12;border:1px solid #ffffff20;border-radius:15px;padding:13px;text-align:center}.metric b{display:block;font-size:21px}.metric small{color:#d9eee0}
 .toolbar{display:grid;grid-template-columns:1fr auto;gap:10px;margin:20px 0 12px}.search{width:100%;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:15px;padding:14px 16px;font-size:16px}.select{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:15px;padding:0 13px;font-size:15px}.countdowns{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin:12px 0 24px}.count{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}.count span{font-size:24px}.count b{display:block;margin:8px 0 3px}.count small{color:var(--muted)}
 .section-title{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:25px 3px 12px}.section-title h2{margin:0}.section-title small{color:var(--muted)}
-.events{display:grid;gap:10px}.event{display:grid;grid-template-columns:84px 1fr auto;align-items:center;gap:13px;background:var(--card);border:1px solid var(--line);border-radius:17px;padding:13px}.date{background:#edf7f0;color:var(--g);border-radius:13px;text-align:center;padding:10px 6px;font-weight:850}.date small{display:block;font-weight:600;margin-top:3px}.event h3{font-size:17px;margin:0 0 5px}.event p{margin:0;color:var(--muted);font-size:13px}.tag{font-size:12px;padding:6px 9px;border-radius:999px;background:#edf7f0;color:var(--g);white-space:nowrap}.tag.expected{background:#fff5d8;color:#765710}.calendar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.calendar-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}.calendar-card h3{margin:0 0 7px}.calendar-card p{color:var(--muted);line-height:1.7;font-size:14px}.calendar-card a{display:block;text-align:center;background:var(--g);color:#fff;text-decoration:none;padding:11px;border-radius:12px;font-weight:750}.notice{margin-top:20px;background:#fff9e8;border:1px solid #ead69b;border-radius:16px;padding:15px;color:#645126;line-height:1.8}footer{text-align:center;color:var(--muted);font-size:13px;line-height:1.9;margin-top:28px}
+.events{display:grid;gap:10px}.event{display:grid;grid-template-columns:84px 1fr auto;align-items:center;gap:13px;background:var(--card);border:1px solid var(--line);border-radius:17px;padding:13px}.event.msg{grid-template-columns:1fr;text-align:center;color:var(--muted)}.date{background:#edf7f0;color:var(--g);border-radius:13px;text-align:center;padding:10px 6px;font-weight:850}.date small{display:block;font-weight:600;margin-top:3px}.event h3{font-size:17px;margin:0 0 5px}.event p{margin:0;color:var(--muted);font-size:13px}.tag{font-size:12px;padding:6px 9px;border-radius:999px;background:#edf7f0;color:var(--g);white-space:nowrap}.tag.expected{background:#fff5d8;color:#765710}.calendar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.calendar-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}.calendar-card h3{margin:0 0 7px}.calendar-card p{color:var(--muted);line-height:1.7;font-size:14px}.calendar-card .row{display:flex;gap:8px}.calendar-card a.sub{flex:1;text-align:center;background:var(--g);color:#fff;text-decoration:none;padding:11px;border-radius:12px;font-weight:750}.calendar-card button.copy-sub{flex:0 0 44px;border:1px solid var(--line);background:var(--bg);color:var(--g);border-radius:12px;font-weight:800;cursor:pointer}.notice{margin-top:20px;background:#fff9e8;border:1px solid #ead69b;border-radius:16px;padding:15px;color:#645126;line-height:1.8}footer{text-align:center;color:var(--muted);font-size:13px;line-height:1.9;margin-top:28px}
 @media(max-width:760px){.metrics,.countdowns{grid-template-columns:1fr 1fr}.calendar-grid{grid-template-columns:1fr}.toolbar{grid-template-columns:1fr}.select{height:49px}.event{grid-template-columns:73px 1fr}.tag{grid-column:2;justify-self:start}.actions{grid-template-columns:1fr}.hero h1{font-size:30px}}
-@media(prefers-color-scheme:dark){:root{--bg:#0d1510;--card:#151f19;--text:#eff8f1;--muted:#a7b7ac;--line:#2b3b31}body{background:linear-gradient(#0d2717 0,#0e1511 360px,#0e1511 100%)}.date,.tag{background:#1d3325}.notice{background:#282214;color:#e6d59e;border-color:#594b24}}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1510;--card:#151f19;--text:#eff8f1;--muted:#a7b7ac;--line:#2b3b31}body{background:linear-gradient(#0d2717 0,#0e1511 360px,#0e1511 100%)}.date,.tag{background:#1d3325}.notice{background:#282214;color:#e6d59e;border-color:#594b24}.calendar-card button.copy-sub{background:#151f19}}
 </style>
 </head>
 <body>
 <main class="wrap">
 <section class="hero">
-<div class="top"><div class="status"><span class="dot"></span> النظام يعمل</div><div class="version">الإصدار 3.0</div></div>
+<div class="top"><div class="status"><span class="dot" id="statusDot"></span> <span id="statusText">النظام يعمل</span></div><div class="version">الإصدار 3.1</div></div>
 <h1>🇸🇦 التقويم السعودي</h1>
 <p class="lead">تقويم مستقل يجمع المواعيد المهمة في السعودية. اشترك مرة واحدة، وستصل تحديثات المواعيد تلقائيًا دون إعادة التنزيل.</p>
 <div class="actions">
 <a class="btn primary" href="webcal://saudi-calendar.saudivip0o.workers.dev/saudi-calendar.ics">اشترك في التقويم الشامل</a>
 <button class="btn ghost" id="copy">نسخ رابط الاشتراك</button>
 </div>
+<p class="hint">لا يعمل زر الاشتراك على جهازك؟ <a href="https://saudi-calendar.saudivip0o.workers.dev/saudi-calendar.ics" id="httpsFallback">افتح رابط https المباشر</a> وأضِفه يدويًا في تطبيق التقويم.</p>
 <div class="metrics">
 <div class="metric"><b id="eventCount">—</b><small>حدثًا</small></div>
 <div class="metric"><b id="categoryCount">—</b><small>تصنيفات</small></div>
@@ -46,16 +47,16 @@
 <section class="countdowns" id="countdowns"></section>
 
 <div class="section-title"><h2>المواعيد القادمة</h2><small id="resultCount"></small></div>
-<section class="events" id="events"><div class="event">جارٍ تحميل البيانات…</div></section>
+<section class="events" id="events"><div class="event msg">جارٍ تحميل البيانات…</div></section>
 
 <div class="section-title"><h2>اختر التقويم المناسب</h2><small>يمكن الاشتراك في أكثر من تقويم</small></div>
 <section class="calendar-grid">
-<article class="calendar-card"><h3>🇸🇦 التقويم الشامل</h3><p>جميع المواعيد في اشتراك واحد.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/saudi-calendar.ics">اشتراك</a></article>
-<article class="calendar-card"><h3>💰 الرواتب</h3><p>رواتب الموظفين ومعاشات التقاعد.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/salaries.ics">اشتراك</a></article>
-<article class="calendar-card"><h3>🎓 التعليم</h3><p>بدايات الدراسة والإجازات التعليمية.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/education.ics">اشتراك</a></article>
-<article class="calendar-card"><h3>🕌 المناسبات الإسلامية</h3><p>المواعيد الهجرية مع توضيح المتوقع منها.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/islamic.ics">اشتراك</a></article>
-<article class="calendar-card"><h3>🇸🇦 المناسبات الوطنية</h3><p>اليوم الوطني ويوم التأسيس.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/national.ics">اشتراك</a></article>
-<article class="calendar-card"><h3>🌤️ الفصول والمواسم</h3><p>بدايات الفصول الفلكية.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/seasons.ics">اشتراك</a></article>
+<article class="calendar-card"><h3>🇸🇦 التقويم الشامل</h3><p>جميع المواعيد في اشتراك واحد.</p><div class="row"><a class="sub" href="webcal://saudi-calendar.saudivip0o.workers.dev/saudi-calendar.ics">اشتراك</a><button class="copy-sub" data-file="saudi-calendar.ics" title="نسخ رابط https">🔗</button></div></article>
+<article class="calendar-card"><h3>💰 الرواتب</h3><p>رواتب الموظفين ومعاشات التقاعد.</p><div class="row"><a class="sub" href="webcal://saudi-calendar.saudivip0o.workers.dev/salaries.ics">اشتراك</a><button class="copy-sub" data-file="salaries.ics" title="نسخ رابط https">🔗</button></div></article>
+<article class="calendar-card"><h3>🎓 التعليم</h3><p>بدايات الدراسة والإجازات التعليمية.</p><div class="row"><a class="sub" href="webcal://saudi-calendar.saudivip0o.workers.dev/education.ics">اشتراك</a><button class="copy-sub" data-file="education.ics" title="نسخ رابط https">🔗</button></div></article>
+<article class="calendar-card"><h3>🕌 المناسبات الإسلامية</h3><p>المواعيد الهجرية مع توضيح المتوقع منها.</p><div class="row"><a class="sub" href="webcal://saudi-calendar.saudivip0o.workers.dev/islamic.ics">اشتراك</a><button class="copy-sub" data-file="islamic.ics" title="نسخ رابط https">🔗</button></div></article>
+<article class="calendar-card"><h3>🇸🇦 المناسبات الوطنية</h3><p>اليوم الوطني ويوم التأسيس.</p><div class="row"><a class="sub" href="webcal://saudi-calendar.saudivip0o.workers.dev/national.ics">اشتراك</a><button class="copy-sub" data-file="national.ics" title="نسخ رابط https">🔗</button></div></article>
+<article class="calendar-card"><h3>🌤️ الفصول والمواسم</h3><p>بدايات الفصول الفلكية.</p><div class="row"><a class="sub" href="webcal://saudi-calendar.saudivip0o.workers.dev/seasons.ics">اشتراك</a><button class="copy-sub" data-file="seasons.ics" title="نسخ رابط https">🔗</button></div></article>
 </section>
 
 <div class="notice"><b>تنبيه:</b> هذا مشروع مستقل وغير تابع لجهة حكومية. التواريخ المتوقعة، وخصوصًا الهجرية، قد تتغير؛ وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.</div>
@@ -68,11 +69,24 @@ const fmtDate=d=>new Intl.DateTimeFormat('ar-SA',{weekday:'long',day:'numeric',m
 const daysBetween=(a,b)=>Math.ceil((b-a)/86400000);
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
 
-document.getElementById('copy').onclick=async()=>{
-  const url=ORIGIN+'/saudi-calendar.ics';
-  try{await navigator.clipboard.writeText(url);const b=document.getElementById('copy');b.textContent='تم النسخ ✓';setTimeout(()=>b.textContent='نسخ رابط الاشتراك',1600)}
-  catch{prompt('انسخ الرابط:',url)}
-};
+async function copyText(text, btn, okLabel, defaultLabel){
+  try{await navigator.clipboard.writeText(text); btn.textContent=okLabel; setTimeout(()=>btn.textContent=defaultLabel,1600)}
+  catch{prompt('انسخ الرابط:',text)}
+}
+
+document.getElementById('copy').onclick=()=>copyText(ORIGIN+'/saudi-calendar.ics', document.getElementById('copy'), 'تم النسخ ✓', 'نسخ رابط الاشتراك');
+document.getElementById('httpsFallback').href = ORIGIN + '/saudi-calendar.ics';
+
+document.querySelectorAll('.copy-sub').forEach(btn=>{
+  const file = btn.dataset.file;
+  btn.onclick=()=>copyText(ORIGIN+'/'+file, btn, '✓', '🔗');
+});
+
+function setStatus(ok){
+  const dot=document.getElementById('statusDot'), text=document.getElementById('statusText');
+  if(ok){dot.classList.remove('err'); text.textContent='النظام يعمل'}
+  else{dot.classList.add('err'); text.textContent='تعذر تحميل البيانات'}
+}
 
 function render(){
   const q=document.getElementById('search').value.trim().toLowerCase();
@@ -90,28 +104,43 @@ function render(){
     const month=new Intl.DateTimeFormat('ar-SA',{month:'short'}).format(d);
     const certainty=e.certainty==='expected'?'متوقع':e.certainty==='confirmed'?'مؤكد':'مجدول';
     return `<article class="event"><div class="date">${day}<small>${month}</small></div><div><h3>${esc((e.emoji||'')+' '+e.title)}</h3><p>${esc(fmtDate(d))} · ${esc(e.source)}</p></div><span class="tag ${e.certainty==='expected'?'expected':''}">${certainty}</span></article>`
-  }).join(''):'<article class="event">لا توجد نتائج مطابقة.</article>';
+  }).join(''):'<article class="event msg">لا توجد نتائج مطابقة.</article>';
 }
 
-fetch('/events.json',{cache:'no-store'}).then(r=>r.json()).then(data=>{
-  state.all=data.events.sort((a,b)=>a.date.localeCompare(b.date));
-  const categories=[...new Set(state.all.map(e=>e.category))];
-  document.getElementById('eventCount').textContent=state.all.length;
-  document.getElementById('categoryCount').textContent=categories.length;
-  document.getElementById('updated').textContent=new Date(data.updatedAt).toLocaleDateString('ar-SA',{day:'numeric',month:'short'});
-  document.getElementById('category').innerHTML+=[...categories].map(c=>`<option>${esc(c)}</option>`).join('');
-  const now=new Date();now.setHours(0,0,0,0);
-  const important=['راتب موظفي الدولة','معاش التقاعد','بداية الدراسة للطلاب','اليوم الوطني'];
-  const icons=['💰','👴','🎓','🇸🇦'];
-  document.getElementById('countdowns').innerHTML=important.map((title,i)=>{
-    const e=state.all.find(x=>x.title.includes(title)&&new Date(x.date+'T00:00:00')>=now);
-    if(!e)return '';
-    const d=new Date(e.date+'T00:00:00'), days=daysBetween(now,d);
-    return `<article class="count"><span>${icons[i]}</span><b>${esc(title)}</b><small>${days===0?'اليوم':`بعد ${days} يوم`}</small></article>`;
-  }).join('');
-  render();
-}).catch(()=>document.getElementById('events').innerHTML='<article class="event">تعذر تحميل بيانات المواعيد.</article>');
+async function loadEvents(retries=1){
+  try{
+    const r=await fetch('/events.json',{cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    const data=await r.json();
+    setStatus(true);
+    state.all=data.events.sort((a,b)=>a.date.localeCompare(b.date));
+    const categories=[...new Set(state.all.map(e=>e.category))];
+    document.getElementById('eventCount').textContent=state.all.length;
+    document.getElementById('categoryCount').textContent=categories.length;
+    document.getElementById('updated').textContent=new Date(data.updatedAt).toLocaleDateString('ar-SA',{day:'numeric',month:'short'});
+    document.getElementById('category').innerHTML='<option value="">جميع التصنيفات</option>'+categories.map(c=>`<option>${esc(c)}</option>`).join('');
+    const now=new Date();now.setHours(0,0,0,0);
+    const important=['راتب موظفي الدولة','معاش التقاعد','بداية الدراسة للطلاب','اليوم الوطني'];
+    const icons=['💰','👴','🎓','🇸🇦'];
+    document.getElementById('countdowns').innerHTML=important.map((title,i)=>{
+      const e=state.all.find(x=>x.title.includes(title)&&new Date(x.date+'T00:00:00')>=now);
+      if(!e)return '';
+      const d=new Date(e.date+'T00:00:00'), days=daysBetween(now,d);
+      return `<article class="count"><span>${icons[i]}</span><b>${esc(title)}</b><small>${days===0?'اليوم':`بعد ${days} يوم`}</small></article>`;
+    }).join('');
+    render();
+  }catch(err){
+    if(retries>0){ setTimeout(()=>loadEvents(retries-1), 1500); return; }
+    setStatus(false);
+    document.getElementById('events').innerHTML='<article class="event msg">تعذر تحميل بيانات المواعيد. حاول تحديث الصفحة بعد قليل.</article>';
+    document.getElementById('eventCount').textContent='—';
+    document.getElementById('categoryCount').textContent='—';
+    document.getElementById('updated').textContent='غير متاح';
+    document.getElementById('resultCount').textContent='';
+  }
+}
 
+loadEvents();
 document.getElementById('search').addEventListener('input',render);
 document.getElementById('category').addEventListener('change',render);
 </script>

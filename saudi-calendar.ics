@@ -1,23 +1,27 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Saudi Calendar//Saudi Calendar 3.0//AR
+PRODID:-//Saudi Calendar//Saudi Calendar 3.1//AR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:🇸🇦 التقويم السعودي
-X-WR-CALDESC:التقويم السعودي الشامل للمواعيد المهمة.
+X-WR-CALDESC:التقويم السعودي الشامل للمواعيد ا
+ لمهمة.
 X-WR-TIMEZONE:Asia/Riyadh
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:c09da874-8f18-4ef3-8634-3485475d7e69@openai.local
-DTSTAMP:20260719T025304Z
+UID:c09da874-8f18-4ef3-8634-3485475d7e69@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260728
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -28,16 +32,19 @@ DESCRIPTION:💰 راتب موظفي الدولة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:911ff111-e93d-4ed3-8934-4ba883aa425e@openai.local
-DTSTAMP:20260719T025304Z
+UID:911ff111-e93d-4ed3-8934-4ba883aa425e@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
 SUMMARY:👴 معاش التقاعد
-DESCRIPTION:موعد صرف معاشات المتقاعدين في السعودية وفق الجدول المنشور لعا
- م 2026.\nالتصنيف: الرواتب\nالحالة: مجدول\nالمصدر المرجعي: المؤسسة العامة
-  للتأمينات الاجتماعية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان
-  الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.worke
- rs.dev
+DESCRIPTION:موعد صرف معاشات المتقاعدين في السع
+ ودية وفق الجدول المنشور لعام 2026.\nالتصنيف
+ : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: 
+ المؤسسة العامة للتأمينات الاجتماعية\nتن
+ بيه: هذا تقويم مستقل، وعند التعارض يُعتم
+ د إعلان الجهة الرسمية المختصة.\nالموقع: htt
+ ps://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -48,16 +55,19 @@ DESCRIPTION:👴 معاش التقاعد
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:b9c1227d-3698-41e4-bc1a-aa57f967e346@openai.local
-DTSTAMP:20260719T025304Z
+UID:b9c1227d-3698-41e4-bc1a-aa57f967e346@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:👨‍🏫 عودة المشرفين والإداريين
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: التعليم\nالحالة: مجدول\nالمص
- در المرجعي: وزارة التعليم السعودية\nتنبيه: هذا تقويم مستقل، وعند التعارض
-  يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.sau
- divip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: التعليم\nالحالة: م
+ جدول\nالمصدر المرجعي: وزارة التعليم السع
+ ودية\nتنبيه: هذا تقويم مستقل، وعند التعار
+ ض يُعتمد إعلان الجهة الرسمية المختصة.\nال
+ موقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:التعليم
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -68,16 +78,19 @@ DESCRIPTION:👨‍🏫 عودة المشرفين والإداريين
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8600dacc-2f3b-48f0-afa5-e40e0e5d7b36@openai.local
-DTSTAMP:20260719T025304Z
+UID:8600dacc-2f3b-48f0-afa5-e40e0e5d7b36@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:👨‍🏫 عودة المعلمين
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: التعليم\nالحالة: مجدول\nالمص
- در المرجعي: وزارة التعليم السعودية\nتنبيه: هذا تقويم مستقل، وعند التعارض
-  يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.sau
- divip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: التعليم\nالحالة: م
+ جدول\nالمصدر المرجعي: وزارة التعليم السع
+ ودية\nتنبيه: هذا تقويم مستقل، وعند التعار
+ ض يُعتمد إعلان الجهة الرسمية المختصة.\nال
+ موقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:التعليم
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -88,15 +101,18 @@ DESCRIPTION:👨‍🏫 عودة المعلمين
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f2982020-fbb2-4f5a-a144-5912a22efb6f@openai.local
-DTSTAMP:20260719T025304Z
+UID:f2982020-fbb2-4f5a-a144-5912a22efb6f@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -107,16 +123,19 @@ DESCRIPTION:💰 راتب موظفي الدولة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:de48fe54-d1ac-48f1-a255-516186f068be@openai.local
-DTSTAMP:20260719T025304Z
+UID:de48fe54-d1ac-48f1-a255-516186f068be@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:🎓 بداية الدراسة للطلاب
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: التعليم\nالحالة: مجدول\nالمص
- در المرجعي: وزارة التعليم السعودية\nتنبيه: هذا تقويم مستقل، وعند التعارض
-  يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.sau
- divip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: التعليم\nالحالة: م
+ جدول\nالمصدر المرجعي: وزارة التعليم السع
+ ودية\nتنبيه: هذا تقويم مستقل، وعند التعار
+ ض يُعتمد إعلان الجهة الرسمية المختصة.\nال
+ موقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:التعليم
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -127,16 +146,19 @@ DESCRIPTION:🎓 بداية الدراسة للطلاب
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:251749af-6c54-4a9c-b518-3a673f953271@openai.local
-DTSTAMP:20260719T025304Z
+UID:251749af-6c54-4a9c-b518-3a673f953271@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:👴 معاش التقاعد
-DESCRIPTION:موعد صرف معاشات المتقاعدين في السعودية وفق الجدول المنشور لعا
- م 2026.\nالتصنيف: الرواتب\nالحالة: مجدول\nالمصدر المرجعي: المؤسسة العامة
-  للتأمينات الاجتماعية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان
-  الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.worke
- rs.dev
+DESCRIPTION:موعد صرف معاشات المتقاعدين في السع
+ ودية وفق الجدول المنشور لعام 2026.\nالتصنيف
+ : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: 
+ المؤسسة العامة للتأمينات الاجتماعية\nتن
+ بيه: هذا تقويم مستقل، وعند التعارض يُعتم
+ د إعلان الجهة الرسمية المختصة.\nالموقع: htt
+ ps://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -147,16 +169,20 @@ DESCRIPTION:👴 معاش التقاعد
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fed4e90e-cd4d-4965-9562-0a34de4c4c1e@openai.local
-DTSTAMP:20260719T025304Z
+UID:fed4e90e-cd4d-4965-9562-0a34de4c4c1e@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260927
 SUMMARY:🇸🇦 إجازة اليوم الوطني للمدارس
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: المناسبات الوطنية\nالحالة: م
- جدول\nالمصدر المرجعي: الجهات الرسمية السعودية\nتنبيه: هذا تقويم مستقل، و
- عند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-c
- alendar.saudivip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: المناسبات الوطني
+ ة\nالحالة: مجدول\nالمصدر المرجعي: الجهات ا
+ لرسمية السعودية\nتنبيه: هذا تقويم مستقل، 
+ وعند التعارض يُعتمد إعلان الجهة الرسمية 
+ المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.d
+ ev
 CATEGORIES:المناسبات الوطنية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -167,15 +193,18 @@ DESCRIPTION:🇸🇦 إجازة اليوم الوطني للمدارس
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4283ac6b-476f-44de-bbbf-72fb9462b877@openai.local
-DTSTAMP:20260719T025304Z
+UID:4283ac6b-476f-44de-bbbf-72fb9462b877@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:🇸🇦 اليوم الوطني السعودي 96
-DESCRIPTION:اليوم الوطني للمملكة العربية السعودية.\nالتصنيف: المناسبات ال
- وطنية\nالحالة: مجدول\nالمصدر المرجعي: الجهات الرسمية السعودية\nتنبيه: هذ
- ا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع:
-  https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:اليوم الوطني للمملكة العربية السع
+ ودية.\nالتصنيف: المناسبات الوطنية\nالحالة
+ : مجدول\nالمصدر المرجعي: الجهات الرسمية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:المناسبات الوطنية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -186,15 +215,19 @@ DESCRIPTION:🇸🇦 اليوم الوطني السعودي 96
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:80ef6a64-4f16-4807-965d-75da3b774848@openai.local
-DTSTAMP:20260719T025304Z
+UID:80ef6a64-4f16-4807-965d-75da3b774848@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:🌤️ بداية فصل الخريف فلكيًا
-DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحساس المناخي الفعلي في السعود
- ية حسب المنطقة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر المرجعي: الحسابا
- ت الفلكية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسم
- ية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحس
+ اس المناخي الفعلي في السعودية حسب المنطق
+ ة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر 
+ المرجعي: الحسابات الفلكية\nتنبيه: هذا تقو
+ يم مستقل، وعند التعارض يُعتمد إعلان الجه
+ ة الرسمية المختصة.\nالموقع: https://saudi-calendar.sa
+ udivip0o.workers.dev
 CATEGORIES:الفصول
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -205,15 +238,18 @@ DESCRIPTION:🌤️ بداية فصل الخريف فلكيًا
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:75800422-f7eb-4c94-8737-530a976ad27d@openai.local
-DTSTAMP:20260719T025304Z
+UID:75800422-f7eb-4c94-8737-530a976ad27d@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -224,16 +260,19 @@ DESCRIPTION:💰 راتب موظفي الدولة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8b981832-93f1-4035-b6b9-83828dd092d0@openai.local
-DTSTAMP:20260719T025304Z
+UID:8b981832-93f1-4035-b6b9-83828dd092d0@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:👴 معاش التقاعد
-DESCRIPTION:موعد صرف معاشات المتقاعدين في السعودية وفق الجدول المنشور لعا
- م 2026.\nالتصنيف: الرواتب\nالحالة: مجدول\nالمصدر المرجعي: المؤسسة العامة
-  للتأمينات الاجتماعية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان
-  الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.worke
- rs.dev
+DESCRIPTION:موعد صرف معاشات المتقاعدين في السع
+ ودية وفق الجدول المنشور لعام 2026.\nالتصنيف
+ : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: 
+ المؤسسة العامة للتأمينات الاجتماعية\nتن
+ بيه: هذا تقويم مستقل، وعند التعارض يُعتم
+ د إعلان الجهة الرسمية المختصة.\nالموقع: htt
+ ps://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -244,15 +283,18 @@ DESCRIPTION:👴 معاش التقاعد
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:be7cf8de-99c3-4bfe-bf2e-6aad7faf7b5e@openai.local
-DTSTAMP:20260719T025304Z
+UID:be7cf8de-99c3-4bfe-bf2e-6aad7faf7b5e@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -263,16 +305,19 @@ DESCRIPTION:💰 راتب موظفي الدولة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:e633ae2e-9c9b-4e74-a9f4-129eb437a0c3@openai.local
-DTSTAMP:20260719T025304Z
+UID:e633ae2e-9c9b-4e74-a9f4-129eb437a0c3@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:👴 معاش التقاعد
-DESCRIPTION:موعد صرف معاشات المتقاعدين في السعودية وفق الجدول المنشور لعا
- م 2026.\nالتصنيف: الرواتب\nالحالة: مجدول\nالمصدر المرجعي: المؤسسة العامة
-  للتأمينات الاجتماعية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان
-  الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.worke
- rs.dev
+DESCRIPTION:موعد صرف معاشات المتقاعدين في السع
+ ودية وفق الجدول المنشور لعام 2026.\nالتصنيف
+ : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: 
+ المؤسسة العامة للتأمينات الاجتماعية\nتن
+ بيه: هذا تقويم مستقل، وعند التعارض يُعتم
+ د إعلان الجهة الرسمية المختصة.\nالموقع: htt
+ ps://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -283,16 +328,19 @@ DESCRIPTION:👴 معاش التقاعد
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:04b9983d-a42d-4318-8ab0-b3e12d0ca79f@openai.local
-DTSTAMP:20260719T025304Z
+UID:04b9983d-a42d-4318-8ab0-b3e12d0ca79f@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261129
 SUMMARY:🏖️ إجازة الخريف
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: التعليم\nالحالة: مجدول\nالمص
- در المرجعي: وزارة التعليم السعودية\nتنبيه: هذا تقويم مستقل، وعند التعارض
-  يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.sau
- divip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: التعليم\nالحالة: م
+ جدول\nالمصدر المرجعي: وزارة التعليم السع
+ ودية\nتنبيه: هذا تقويم مستقل، وعند التعار
+ ض يُعتمد إعلان الجهة الرسمية المختصة.\nال
+ موقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:التعليم
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -303,15 +351,18 @@ DESCRIPTION:🏖️ إجازة الخريف
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:155d6525-d3e9-49f2-8d27-ec5a50317e05@openai.local
-DTSTAMP:20260719T025304Z
+UID:155d6525-d3e9-49f2-8d27-ec5a50317e05@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -322,16 +373,19 @@ DESCRIPTION:💰 راتب موظفي الدولة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f97c6574-c7a6-4a04-b310-6dca0764dbf0@openai.local
-DTSTAMP:20260719T025304Z
+UID:f97c6574-c7a6-4a04-b310-6dca0764dbf0@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:👴 معاش التقاعد
-DESCRIPTION:موعد صرف معاشات المتقاعدين في السعودية وفق الجدول المنشور لعا
- م 2026.\nالتصنيف: الرواتب\nالحالة: مجدول\nالمصدر المرجعي: المؤسسة العامة
-  للتأمينات الاجتماعية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان
-  الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.worke
- rs.dev
+DESCRIPTION:موعد صرف معاشات المتقاعدين في السع
+ ودية وفق الجدول المنشور لعام 2026.\nالتصنيف
+ : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: 
+ المؤسسة العامة للتأمينات الاجتماعية\nتن
+ بيه: هذا تقويم مستقل، وعند التعارض يُعتم
+ د إعلان الجهة الرسمية المختصة.\nالموقع: htt
+ ps://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -342,15 +396,19 @@ DESCRIPTION:👴 معاش التقاعد
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:1d3b388c-9f72-43dd-9a9e-002baf4c11b9@openai.local
-DTSTAMP:20260719T025304Z
+UID:1d3b388c-9f72-43dd-9a9e-002baf4c11b9@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:🌤️ بداية فصل الشتاء فلكيًا
-DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحساس المناخي الفعلي في السعود
- ية حسب المنطقة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر المرجعي: الحسابا
- ت الفلكية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسم
- ية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحس
+ اس المناخي الفعلي في السعودية حسب المنطق
+ ة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر 
+ المرجعي: الحسابات الفلكية\nتنبيه: هذا تقو
+ يم مستقل، وعند التعارض يُعتمد إعلان الجه
+ ة الرسمية المختصة.\nالموقع: https://saudi-calendar.sa
+ udivip0o.workers.dev
 CATEGORIES:الفصول
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -361,15 +419,18 @@ DESCRIPTION:🌤️ بداية فصل الشتاء فلكيًا
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:754768a6-fbd2-4a6a-90fb-98380a0517e9@openai.local
-DTSTAMP:20260719T025304Z
+UID:754768a6-fbd2-4a6a-90fb-98380a0517e9@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -380,16 +441,19 @@ DESCRIPTION:💰 راتب موظفي الدولة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4e7fbb06-893c-4a57-a5ab-e3ac94cc0612@openai.local
-DTSTAMP:20260719T025304Z
+UID:4e7fbb06-893c-4a57-a5ab-e3ac94cc0612@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270117
 SUMMARY:🏖️ إجازة منتصف العام الدراسي
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: التعليم\nالحالة: مجدول\nالمص
- در المرجعي: وزارة التعليم السعودية\nتنبيه: هذا تقويم مستقل، وعند التعارض
-  يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.sau
- divip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: التعليم\nالحالة: م
+ جدول\nالمصدر المرجعي: وزارة التعليم السع
+ ودية\nتنبيه: هذا تقويم مستقل، وعند التعار
+ ض يُعتمد إعلان الجهة الرسمية المختصة.\nال
+ موقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:التعليم
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -400,16 +464,19 @@ DESCRIPTION:🏖️ إجازة منتصف العام الدراسي
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a772fa65-64d6-4835-8b00-41ccdb68b19a@openai.local
-DTSTAMP:20260719T025304Z
+UID:a772fa65-64d6-4835-8b00-41ccdb68b19a@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 SUMMARY:🕌 بداية شهر رمضان 1448هـ
-DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وقد يتغير يومًا بحسب ثبوت رؤي
- ة الهلال.\nالتصنيف: المناسبات الإسلامية\nالحالة: متوقع\nالمصدر المرجعي: 
- تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
- تمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
- p0o.workers.dev
+DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وق
+ د يتغير يومًا بحسب ثبوت رؤية الهلال.\nالت
+ صنيف: المناسبات الإسلامية\nالحالة: متوقع\
+ nالمصدر المرجعي: تقويم أم القرى والإعلان 
+ الرسمي\nتنبيه: هذا تقويم مستقل، وعند التع
+ ارض يُعتمد إعلان الجهة الرسمية المختصة.\n
+ الموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -420,16 +487,20 @@ DESCRIPTION:🕌 بداية شهر رمضان 1448هـ
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8baca73c-42cb-46a3-b8f9-67ec0fe1a01a@openai.local
-DTSTAMP:20260719T025304Z
+UID:8baca73c-42cb-46a3-b8f9-67ec0fe1a01a@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270219
 DTEND;VALUE=DATE:20270223
 SUMMARY:🇸🇦 إجازة يوم التأسيس للمدارس
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: المناسبات الوطنية\nالحالة: م
- جدول\nالمصدر المرجعي: الجهات الرسمية السعودية\nتنبيه: هذا تقويم مستقل، و
- عند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-c
- alendar.saudivip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: المناسبات الوطني
+ ة\nالحالة: مجدول\nالمصدر المرجعي: الجهات ا
+ لرسمية السعودية\nتنبيه: هذا تقويم مستقل، 
+ وعند التعارض يُعتمد إعلان الجهة الرسمية 
+ المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.d
+ ev
 CATEGORIES:المناسبات الوطنية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -440,15 +511,18 @@ DESCRIPTION:🇸🇦 إجازة يوم التأسيس للمدارس
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:df41a7e5-d09d-49cf-befe-6e859b144f85@openai.local
-DTSTAMP:20260719T025304Z
+UID:df41a7e5-d09d-49cf-befe-6e859b144f85@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270223
 SUMMARY:🇸🇦 يوم التأسيس السعودي
-DESCRIPTION:ذكرى تأسيس الدولة السعودية.\nالتصنيف: المناسبات الوطنية\nالحا
- لة: مجدول\nالمصدر المرجعي: الجهات الرسمية السعودية\nتنبيه: هذا تقويم مست
- قل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://sa
- udi-calendar.saudivip0o.workers.dev
+DESCRIPTION:ذكرى تأسيس الدولة السعودية.\nالتصن
+ يف: المناسبات الوطنية\nالحالة: مجدول\nالم
+ صدر المرجعي: الجهات الرسمية السعودية\nتن
+ بيه: هذا تقويم مستقل، وعند التعارض يُعتم
+ د إعلان الجهة الرسمية المختصة.\nالموقع: htt
+ ps://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:المناسبات الوطنية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -459,16 +533,20 @@ DESCRIPTION:🇸🇦 يوم التأسيس السعودي
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:48ec8171-cda2-4a46-9956-482245c9c883@openai.local
-DTSTAMP:20260719T025304Z
+UID:48ec8171-cda2-4a46-9956-482245c9c883@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270314
 SUMMARY:🕌 إجازة عيد الفطر للمدارس
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: المناسبات الإسلامية\nالحالة:
-  مجدول\nالمصدر المرجعي: تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم
-  مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https:
- //saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: المناسبات الإسلا
+ مية\nالحالة: مجدول\nالمصدر المرجعي: تقويم 
+ أم القرى والإعلان الرسمي\nتنبيه: هذا تقوي
+ م مستقل، وعند التعارض يُعتمد إعلان الجهة
+  الرسمية المختصة.\nالموقع: https://saudi-calendar.saud
+ ivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -479,16 +557,19 @@ DESCRIPTION:🕌 إجازة عيد الفطر للمدارس
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8ac060f1-d4e3-4efc-acda-bcbf28cc34fe@openai.local
-DTSTAMP:20260719T025304Z
+UID:8ac060f1-d4e3-4efc-acda-bcbf28cc34fe@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:🕌 عيد الفطر 1448هـ
-DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وقد يتغير يومًا بحسب ثبوت رؤي
- ة الهلال.\nالتصنيف: المناسبات الإسلامية\nالحالة: متوقع\nالمصدر المرجعي: 
- تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
- تمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
- p0o.workers.dev
+DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وق
+ د يتغير يومًا بحسب ثبوت رؤية الهلال.\nالت
+ صنيف: المناسبات الإسلامية\nالحالة: متوقع\
+ nالمصدر المرجعي: تقويم أم القرى والإعلان 
+ الرسمي\nتنبيه: هذا تقويم مستقل، وعند التع
+ ارض يُعتمد إعلان الجهة الرسمية المختصة.\n
+ الموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -499,15 +580,19 @@ DESCRIPTION:🕌 عيد الفطر 1448هـ
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ab44fb2f-d7be-482c-9c28-30803381022c@openai.local
-DTSTAMP:20260719T025304Z
+UID:ab44fb2f-d7be-482c-9c28-30803381022c@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:🌤️ بداية فصل الربيع فلكيًا
-DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحساس المناخي الفعلي في السعود
- ية حسب المنطقة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر المرجعي: الحسابا
- ت الفلكية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسم
- ية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحس
+ اس المناخي الفعلي في السعودية حسب المنطق
+ ة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر 
+ المرجعي: الحسابات الفلكية\nتنبيه: هذا تقو
+ يم مستقل، وعند التعارض يُعتمد إعلان الجه
+ ة الرسمية المختصة.\nالموقع: https://saudi-calendar.sa
+ udivip0o.workers.dev
 CATEGORIES:الفصول
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -518,36 +603,45 @@ DESCRIPTION:🌤️ بداية فصل الربيع فلكيًا
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:23376190-4fa2-459d-8af1-079e5f0a7074@openai.local
-DTSTAMP:20260719T025304Z
+UID:23376190-4fa2-459d-8af1-079e5f0a7074@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270523
-SUMMARY:🕌 إجازة عيد الأضحى للمدارس – المدينة المنورة
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: المناسبات الإسلامية\nالحالة:
-  مجدول\nالمصدر المرجعي: تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم
-  مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https:
- //saudi-calendar.saudivip0o.workers.dev
+SUMMARY:🕌 إجازة عيد الأضحى للمدارس – المدين
+ ة المنورة
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: المناسبات الإسلا
+ مية\nالحالة: مجدول\nالمصدر المرجعي: تقويم 
+ أم القرى والإعلان الرسمي\nتنبيه: هذا تقوي
+ م مستقل، وعند التعارض يُعتمد إعلان الجهة
+  الرسمية المختصة.\nالموقع: https://saudi-calendar.saud
+ ivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:🕌 إجازة عيد الأضحى للمدارس – المدينة المنورة
+DESCRIPTION:🕌 إجازة عيد الأضحى للمدارس – المد
+ ينة المنورة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:b8e7b1ad-5467-4ea3-8979-27eb2c0fe42a@openai.local
-DTSTAMP:20260719T025304Z
+UID:b8e7b1ad-5467-4ea3-8979-27eb2c0fe42a@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🕌 يوم عرفة 1448هـ
-DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وقد يتغير يومًا بحسب ثبوت رؤي
- ة الهلال.\nالتصنيف: المناسبات الإسلامية\nالحالة: متوقع\nالمصدر المرجعي: 
- تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
- تمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
- p0o.workers.dev
+DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وق
+ د يتغير يومًا بحسب ثبوت رؤية الهلال.\nالت
+ صنيف: المناسبات الإسلامية\nالحالة: متوقع\
+ nالمصدر المرجعي: تقويم أم القرى والإعلان 
+ الرسمي\nتنبيه: هذا تقويم مستقل، وعند التع
+ ارض يُعتمد إعلان الجهة الرسمية المختصة.\n
+ الموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -558,16 +652,19 @@ DESCRIPTION:🕌 يوم عرفة 1448هـ
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:3f993a41-73cd-491f-a7ee-3239b9b000e1@openai.local
-DTSTAMP:20260719T025304Z
+UID:3f993a41-73cd-491f-a7ee-3239b9b000e1@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
 SUMMARY:🕌 عيد الأضحى 1448هـ
-DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وقد يتغير يومًا بحسب ثبوت رؤي
- ة الهلال.\nالتصنيف: المناسبات الإسلامية\nالحالة: متوقع\nالمصدر المرجعي: 
- تقويم أم القرى والإعلان الرسمي\nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
- تمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
- p0o.workers.dev
+DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وق
+ د يتغير يومًا بحسب ثبوت رؤية الهلال.\nالت
+ صنيف: المناسبات الإسلامية\nالحالة: متوقع\
+ nالمصدر المرجعي: تقويم أم القرى والإعلان 
+ الرسمي\nتنبيه: هذا تقويم مستقل، وعند التع
+ ارض يُعتمد إعلان الجهة الرسمية المختصة.\n
+ الموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:المناسبات الإسلامية
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -578,15 +675,19 @@ DESCRIPTION:🕌 عيد الأضحى 1448هـ
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6fdc56fc-07a9-48ce-a3a4-204f71764476@openai.local
-DTSTAMP:20260719T025304Z
+UID:6fdc56fc-07a9-48ce-a3a4-204f71764476@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270606
 DTEND;VALUE=DATE:20270607
 SUMMARY:بداية العام الهجري 1449هـ – متوقع
-DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وقد يتغير يومًا بحسب ثبوت رؤي
- ة الهلال.\nالتصنيف: أخرى\nالحالة: متوقع\nالمصدر المرجعي: الجهة الرسمية ا
- لمختصة\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية 
- المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:تاريخ متوقع وفق تقويم أم القرى، وق
+ د يتغير يومًا بحسب ثبوت رؤية الهلال.\nالت
+ صنيف: أخرى\nالحالة: متوقع\nالمصدر المرجعي:
+  الجهة الرسمية المختصة\nتنبيه: هذا تقويم 
+ مستقل، وعند التعارض يُعتمد إعلان الجهة ا
+ لرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
+ p0o.workers.dev
 CATEGORIES:أخرى
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -597,15 +698,19 @@ DESCRIPTION:بداية العام الهجري 1449هـ – متوقع
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:3b087614-8c80-4964-881e-e95ad757eeac@openai.local
-DTSTAMP:20260719T025304Z
+UID:3b087614-8c80-4964-881e-e95ad757eeac@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270621
 DTEND;VALUE=DATE:20270622
 SUMMARY:🌤️ بداية فصل الصيف فلكيًا
-DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحساس المناخي الفعلي في السعود
- ية حسب المنطقة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر المرجعي: الحسابا
- ت الفلكية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسم
- ية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحس
+ اس المناخي الفعلي في السعودية حسب المنطق
+ ة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر 
+ المرجعي: الحسابات الفلكية\nتنبيه: هذا تقو
+ يم مستقل، وعند التعارض يُعتمد إعلان الجه
+ ة الرسمية المختصة.\nالموقع: https://saudi-calendar.sa
+ udivip0o.workers.dev
 CATEGORIES:الفصول
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -616,23 +721,28 @@ DESCRIPTION:🌤️ بداية فصل الصيف فلكيًا
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a5c7103b-494f-49a8-b7d1-8d569dd6d18e@openai.local
-DTSTAMP:20260719T025304Z
+UID:a5c7103b-494f-49a8-b7d1-8d569dd6d18e@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
-SUMMARY:بداية الإجازة الصيفية – المدينة المنورة
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: أخرى\nالحالة: مجدول\nالمصدر 
- المرجعي: الجهة الرسمية المختصة\nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
- تمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivi
- p0o.workers.dev
+SUMMARY:بداية الإجازة الصيفية – المدينة الم
+ نورة
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: أخرى\nالحالة: مجدو
+ ل\nالمصدر المرجعي: الجهة الرسمية المختصة\
+ nتنبيه: هذا تقويم مستقل، وعند التعارض يُع
+ تمد إعلان الجهة الرسمية المختصة.\nالموقع:
+  https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:أخرى
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 TRIGGER:-P1D
 ACTION:DISPLAY
-DESCRIPTION:بداية الإجازة الصيفية – المدينة المنورة
+DESCRIPTION:بداية الإجازة الصيفية – المدينة ا
+ لمنورة
 END:VALARM
 END:VEVENT
 END:VCALENDAR

@@ -1,24 +1,28 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Saudi Calendar//Saudi Calendar 3.0//AR
+PRODID:-//Saudi Calendar//Saudi Calendar 3.1//AR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:التقويم السعودي — التعليم
-X-WR-CALDESC:مواعيد التعليم من التقويم السعودي.
+X-WR-CALDESC:مواعيد التعليم من التقويم السعودي
+ .
 X-WR-TIMEZONE:Asia/Riyadh
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:b9c1227d-3698-41e4-bc1a-aa57f967e346@openai.local
-DTSTAMP:20260719T025304Z
+UID:b9c1227d-3698-41e4-bc1a-aa57f967e346@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:👨‍🏫 عودة المشرفين والإداريين
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: التعليم\nالحالة: مجدول\nالمص
- در المرجعي: وزارة التعليم السعودية\nتنبيه: هذا تقويم مستقل، وعند التعارض
-  يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.sau
- divip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: التعليم\nالحالة: م
+ جدول\nالمصدر المرجعي: وزارة التعليم السع
+ ودية\nتنبيه: هذا تقويم مستقل، وعند التعار
+ ض يُعتمد إعلان الجهة الرسمية المختصة.\nال
+ موقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:التعليم
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -29,16 +33,19 @@ DESCRIPTION:👨‍🏫 عودة المشرفين والإداريين
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8600dacc-2f3b-48f0-afa5-e40e0e5d7b36@openai.local
-DTSTAMP:20260719T025304Z
+UID:8600dacc-2f3b-48f0-afa5-e40e0e5d7b36@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:👨‍🏫 عودة المعلمين
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: التعليم\nالحالة: مجدول\nالمص
- در المرجعي: وزارة التعليم السعودية\nتنبيه: هذا تقويم مستقل، وعند التعارض
-  يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.sau
- divip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: التعليم\nالحالة: م
+ جدول\nالمصدر المرجعي: وزارة التعليم السع
+ ودية\nتنبيه: هذا تقويم مستقل، وعند التعار
+ ض يُعتمد إعلان الجهة الرسمية المختصة.\nال
+ موقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:التعليم
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -49,16 +56,19 @@ DESCRIPTION:👨‍🏫 عودة المعلمين
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:de48fe54-d1ac-48f1-a255-516186f068be@openai.local
-DTSTAMP:20260719T025304Z
+UID:de48fe54-d1ac-48f1-a255-516186f068be@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:🎓 بداية الدراسة للطلاب
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: التعليم\nالحالة: مجدول\nالمص
- در المرجعي: وزارة التعليم السعودية\nتنبيه: هذا تقويم مستقل، وعند التعارض
-  يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.sau
- divip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: التعليم\nالحالة: م
+ جدول\nالمصدر المرجعي: وزارة التعليم السع
+ ودية\nتنبيه: هذا تقويم مستقل، وعند التعار
+ ض يُعتمد إعلان الجهة الرسمية المختصة.\nال
+ موقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:التعليم
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -69,16 +79,19 @@ DESCRIPTION:🎓 بداية الدراسة للطلاب
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:04b9983d-a42d-4318-8ab0-b3e12d0ca79f@openai.local
-DTSTAMP:20260719T025304Z
+UID:04b9983d-a42d-4318-8ab0-b3e12d0ca79f@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261129
 SUMMARY:🏖️ إجازة الخريف
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: التعليم\nالحالة: مجدول\nالمص
- در المرجعي: وزارة التعليم السعودية\nتنبيه: هذا تقويم مستقل، وعند التعارض
-  يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.sau
- divip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: التعليم\nالحالة: م
+ جدول\nالمصدر المرجعي: وزارة التعليم السع
+ ودية\nتنبيه: هذا تقويم مستقل، وعند التعار
+ ض يُعتمد إعلان الجهة الرسمية المختصة.\nال
+ موقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:التعليم
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -89,16 +102,19 @@ DESCRIPTION:🏖️ إجازة الخريف
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4e7fbb06-893c-4a57-a5ab-e3ac94cc0612@openai.local
-DTSTAMP:20260719T025304Z
+UID:4e7fbb06-893c-4a57-a5ab-e3ac94cc0612@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270117
 SUMMARY:🏖️ إجازة منتصف العام الدراسي
-DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
- المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: التعليم\nالحالة: مجدول\nالمص
- در المرجعي: وزارة التعليم السعودية\nتنبيه: هذا تقويم مستقل، وعند التعارض
-  يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.sau
- divip0o.workers.dev
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ
+  / 2026–2027م، مع تطبيق المواعيد الخاصة بالم
+ دينة المنورة.\nالتصنيف: التعليم\nالحالة: م
+ جدول\nالمصدر المرجعي: وزارة التعليم السع
+ ودية\nتنبيه: هذا تقويم مستقل، وعند التعار
+ ض يُعتمد إعلان الجهة الرسمية المختصة.\nال
+ موقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:التعليم
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

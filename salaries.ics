@@ -1,23 +1,27 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Saudi Calendar//Saudi Calendar 3.0//AR
+PRODID:-//Saudi Calendar//Saudi Calendar 3.1//AR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:التقويم السعودي — الرواتب
-X-WR-CALDESC:مواعيد الرواتب من التقويم السعودي.
+X-WR-CALDESC:مواعيد الرواتب من التقويم السعودي
+ .
 X-WR-TIMEZONE:Asia/Riyadh
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:c09da874-8f18-4ef3-8634-3485475d7e69@openai.local
-DTSTAMP:20260719T025304Z
+UID:c09da874-8f18-4ef3-8634-3485475d7e69@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260728
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -28,16 +32,19 @@ DESCRIPTION:💰 راتب موظفي الدولة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:911ff111-e93d-4ed3-8934-4ba883aa425e@openai.local
-DTSTAMP:20260719T025304Z
+UID:911ff111-e93d-4ed3-8934-4ba883aa425e@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
 SUMMARY:👴 معاش التقاعد
-DESCRIPTION:موعد صرف معاشات المتقاعدين في السعودية وفق الجدول المنشور لعا
- م 2026.\nالتصنيف: الرواتب\nالحالة: مجدول\nالمصدر المرجعي: المؤسسة العامة
-  للتأمينات الاجتماعية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان
-  الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.worke
- rs.dev
+DESCRIPTION:موعد صرف معاشات المتقاعدين في السع
+ ودية وفق الجدول المنشور لعام 2026.\nالتصنيف
+ : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: 
+ المؤسسة العامة للتأمينات الاجتماعية\nتن
+ بيه: هذا تقويم مستقل، وعند التعارض يُعتم
+ د إعلان الجهة الرسمية المختصة.\nالموقع: htt
+ ps://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -48,15 +55,18 @@ DESCRIPTION:👴 معاش التقاعد
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f2982020-fbb2-4f5a-a144-5912a22efb6f@openai.local
-DTSTAMP:20260719T025304Z
+UID:f2982020-fbb2-4f5a-a144-5912a22efb6f@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -67,16 +77,19 @@ DESCRIPTION:💰 راتب موظفي الدولة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:251749af-6c54-4a9c-b518-3a673f953271@openai.local
-DTSTAMP:20260719T025304Z
+UID:251749af-6c54-4a9c-b518-3a673f953271@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:👴 معاش التقاعد
-DESCRIPTION:موعد صرف معاشات المتقاعدين في السعودية وفق الجدول المنشور لعا
- م 2026.\nالتصنيف: الرواتب\nالحالة: مجدول\nالمصدر المرجعي: المؤسسة العامة
-  للتأمينات الاجتماعية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان
-  الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.worke
- rs.dev
+DESCRIPTION:موعد صرف معاشات المتقاعدين في السع
+ ودية وفق الجدول المنشور لعام 2026.\nالتصنيف
+ : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: 
+ المؤسسة العامة للتأمينات الاجتماعية\nتن
+ بيه: هذا تقويم مستقل، وعند التعارض يُعتم
+ د إعلان الجهة الرسمية المختصة.\nالموقع: htt
+ ps://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -87,15 +100,18 @@ DESCRIPTION:👴 معاش التقاعد
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:75800422-f7eb-4c94-8737-530a976ad27d@openai.local
-DTSTAMP:20260719T025304Z
+UID:75800422-f7eb-4c94-8737-530a976ad27d@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -106,16 +122,19 @@ DESCRIPTION:💰 راتب موظفي الدولة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8b981832-93f1-4035-b6b9-83828dd092d0@openai.local
-DTSTAMP:20260719T025304Z
+UID:8b981832-93f1-4035-b6b9-83828dd092d0@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:👴 معاش التقاعد
-DESCRIPTION:موعد صرف معاشات المتقاعدين في السعودية وفق الجدول المنشور لعا
- م 2026.\nالتصنيف: الرواتب\nالحالة: مجدول\nالمصدر المرجعي: المؤسسة العامة
-  للتأمينات الاجتماعية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان
-  الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.worke
- rs.dev
+DESCRIPTION:موعد صرف معاشات المتقاعدين في السع
+ ودية وفق الجدول المنشور لعام 2026.\nالتصنيف
+ : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: 
+ المؤسسة العامة للتأمينات الاجتماعية\nتن
+ بيه: هذا تقويم مستقل، وعند التعارض يُعتم
+ د إعلان الجهة الرسمية المختصة.\nالموقع: htt
+ ps://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -126,15 +145,18 @@ DESCRIPTION:👴 معاش التقاعد
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:be7cf8de-99c3-4bfe-bf2e-6aad7faf7b5e@openai.local
-DTSTAMP:20260719T025304Z
+UID:be7cf8de-99c3-4bfe-bf2e-6aad7faf7b5e@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -145,16 +167,19 @@ DESCRIPTION:💰 راتب موظفي الدولة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:e633ae2e-9c9b-4e74-a9f4-129eb437a0c3@openai.local
-DTSTAMP:20260719T025304Z
+UID:e633ae2e-9c9b-4e74-a9f4-129eb437a0c3@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:👴 معاش التقاعد
-DESCRIPTION:موعد صرف معاشات المتقاعدين في السعودية وفق الجدول المنشور لعا
- م 2026.\nالتصنيف: الرواتب\nالحالة: مجدول\nالمصدر المرجعي: المؤسسة العامة
-  للتأمينات الاجتماعية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان
-  الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.worke
- rs.dev
+DESCRIPTION:موعد صرف معاشات المتقاعدين في السع
+ ودية وفق الجدول المنشور لعام 2026.\nالتصنيف
+ : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: 
+ المؤسسة العامة للتأمينات الاجتماعية\nتن
+ بيه: هذا تقويم مستقل، وعند التعارض يُعتم
+ د إعلان الجهة الرسمية المختصة.\nالموقع: htt
+ ps://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -165,15 +190,18 @@ DESCRIPTION:👴 معاش التقاعد
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:155d6525-d3e9-49f2-8d27-ec5a50317e05@openai.local
-DTSTAMP:20260719T025304Z
+UID:155d6525-d3e9-49f2-8d27-ec5a50317e05@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -184,16 +212,19 @@ DESCRIPTION:💰 راتب موظفي الدولة
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f97c6574-c7a6-4a04-b310-6dca0764dbf0@openai.local
-DTSTAMP:20260719T025304Z
+UID:f97c6574-c7a6-4a04-b310-6dca0764dbf0@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:👴 معاش التقاعد
-DESCRIPTION:موعد صرف معاشات المتقاعدين في السعودية وفق الجدول المنشور لعا
- م 2026.\nالتصنيف: الرواتب\nالحالة: مجدول\nالمصدر المرجعي: المؤسسة العامة
-  للتأمينات الاجتماعية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان
-  الجهة الرسمية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.worke
- rs.dev
+DESCRIPTION:موعد صرف معاشات المتقاعدين في السع
+ ودية وفق الجدول المنشور لعام 2026.\nالتصنيف
+ : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: 
+ المؤسسة العامة للتأمينات الاجتماعية\nتن
+ بيه: هذا تقويم مستقل، وعند التعارض يُعتم
+ د إعلان الجهة الرسمية المختصة.\nالموقع: htt
+ ps://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -204,15 +235,18 @@ DESCRIPTION:👴 معاش التقاعد
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:754768a6-fbd2-4a6a-90fb-98380a0517e9@openai.local
-DTSTAMP:20260719T025304Z
+UID:754768a6-fbd2-4a6a-90fb-98380a0517e9@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:💰 راتب موظفي الدولة
-DESCRIPTION:موعد رسمي منشور من وزارة المالية السعودية لعام 2026.\nالتصنيف
- : الرواتب\nالحالة: مجدول\nالمصدر المرجعي: وزارة المالية السعودية\nتنبيه:
-  هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالمو
- قع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:موعد رسمي منشور من وزارة المالية ا
+ لسعودية لعام 2026.\nالتصنيف: الرواتب\nالحال
+ ة: مجدول\nالمصدر المرجعي: وزارة المالية ا
+ لسعودية\nتنبيه: هذا تقويم مستقل، وعند الت
+ عارض يُعتمد إعلان الجهة الرسمية المختصة.
+ \nالموقع: https://saudi-calendar.saudivip0o.workers.dev
 CATEGORIES:الرواتب
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

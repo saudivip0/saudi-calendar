@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Saudi Calendar//Saudi Calendar 3.0//AR
+PRODID:-//Saudi Calendar//Saudi Calendar 3.1//AR
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:التقويم السعودي — الفصول
@@ -9,15 +9,19 @@ X-WR-TIMEZONE:Asia/Riyadh
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:80ef6a64-4f16-4807-965d-75da3b774848@openai.local
-DTSTAMP:20260719T025304Z
+UID:80ef6a64-4f16-4807-965d-75da3b774848@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:🌤️ بداية فصل الخريف فلكيًا
-DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحساس المناخي الفعلي في السعود
- ية حسب المنطقة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر المرجعي: الحسابا
- ت الفلكية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسم
- ية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحس
+ اس المناخي الفعلي في السعودية حسب المنطق
+ ة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر 
+ المرجعي: الحسابات الفلكية\nتنبيه: هذا تقو
+ يم مستقل، وعند التعارض يُعتمد إعلان الجه
+ ة الرسمية المختصة.\nالموقع: https://saudi-calendar.sa
+ udivip0o.workers.dev
 CATEGORIES:الفصول
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -28,15 +32,19 @@ DESCRIPTION:🌤️ بداية فصل الخريف فلكيًا
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:1d3b388c-9f72-43dd-9a9e-002baf4c11b9@openai.local
-DTSTAMP:20260719T025304Z
+UID:1d3b388c-9f72-43dd-9a9e-002baf4c11b9@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:🌤️ بداية فصل الشتاء فلكيًا
-DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحساس المناخي الفعلي في السعود
- ية حسب المنطقة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر المرجعي: الحسابا
- ت الفلكية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسم
- ية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحس
+ اس المناخي الفعلي في السعودية حسب المنطق
+ ة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر 
+ المرجعي: الحسابات الفلكية\nتنبيه: هذا تقو
+ يم مستقل، وعند التعارض يُعتمد إعلان الجه
+ ة الرسمية المختصة.\nالموقع: https://saudi-calendar.sa
+ udivip0o.workers.dev
 CATEGORIES:الفصول
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -47,15 +55,19 @@ DESCRIPTION:🌤️ بداية فصل الشتاء فلكيًا
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ab44fb2f-d7be-482c-9c28-30803381022c@openai.local
-DTSTAMP:20260719T025304Z
+UID:ab44fb2f-d7be-482c-9c28-30803381022c@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:🌤️ بداية فصل الربيع فلكيًا
-DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحساس المناخي الفعلي في السعود
- ية حسب المنطقة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر المرجعي: الحسابا
- ت الفلكية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسم
- ية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحس
+ اس المناخي الفعلي في السعودية حسب المنطق
+ ة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر 
+ المرجعي: الحسابات الفلكية\nتنبيه: هذا تقو
+ يم مستقل، وعند التعارض يُعتمد إعلان الجه
+ ة الرسمية المختصة.\nالموقع: https://saudi-calendar.sa
+ udivip0o.workers.dev
 CATEGORIES:الفصول
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -66,15 +78,19 @@ DESCRIPTION:🌤️ بداية فصل الربيع فلكيًا
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:3b087614-8c80-4964-881e-e95ad757eeac@openai.local
-DTSTAMP:20260719T025304Z
+UID:3b087614-8c80-4964-881e-e95ad757eeac@saudi-calendar.saudivip0o.workers.
+ dev
+DTSTAMP:20260719T163633Z
 DTSTART;VALUE=DATE:20270621
 DTEND;VALUE=DATE:20270622
 SUMMARY:🌤️ بداية فصل الصيف فلكيًا
-DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحساس المناخي الفعلي في السعود
- ية حسب المنطقة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر المرجعي: الحسابا
- ت الفلكية\nتنبيه: هذا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسم
- ية المختصة.\nالموقع: https://saudi-calendar.saudivip0o.workers.dev
+DESCRIPTION:بداية الفصل فلكيًا. قد يختلف الإحس
+ اس المناخي الفعلي في السعودية حسب المنطق
+ ة.\nالتصنيف: الفصول\nالحالة: مجدول\nالمصدر 
+ المرجعي: الحسابات الفلكية\nتنبيه: هذا تقو
+ يم مستقل، وعند التعارض يُعتمد إعلان الجه
+ ة الرسمية المختصة.\nالموقع: https://saudi-calendar.sa
+ udivip0o.workers.dev
 CATEGORIES:الفصول
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

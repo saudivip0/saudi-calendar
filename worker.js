@@ -11,6 +11,7 @@ const ROUTES = new Map([
   ["/islamic.ics", ["islamic.ics", "text/calendar; charset=utf-8"]],
   ["/national.ics", ["national.ics", "text/calendar; charset=utf-8"]],
   ["/seasons.ics", ["seasons.ics", "text/calendar; charset=utf-8"]],
+  ["/other.ics", ["other.ics", "text/calendar; charset=utf-8"]],
 ]);
 
 function securityHeaders(type) {
@@ -33,12 +34,48 @@ export default {
     const url = new URL(request.url);
 
     if (url.pathname === "/health") {
-      return Response.json({
-        ok: true,
-        service: "saudi-calendar",
-        version: "3.0.0",
-        checkedAt: new Date().toISOString(),
-      }, { headers: { "Cache-Control": "no-store" } });
+      // فحص حقيقي: نتأكد أن events.json فعليًا قابل للوصول ومحتواه صالح،
+      // وليس مجرد رد ثابت بدون تحقق من المصدر الفعلي.
+      const startedAt = Date.now();
+      let upstreamOk = false;
+      let eventCount = null;
+      let upstreamError = null;
+
+      try {
+        const probe = await fetch(`${RAW_BASE}/events.json`, {
+          cf: { cacheTtl: 30, cacheEverything: false },
+        });
+        if (probe.ok) {
+          const data = await probe.json();
+          if (Array.isArray(data.events)) {
+            upstreamOk = true;
+            eventCount = data.events.length;
+          } else {
+            upstreamError = "events.json بدون مصفوفة events صالحة";
+          }
+        } else {
+          upstreamError = `upstream HTTP ${probe.status}`;
+        }
+      } catch (err) {
+        upstreamError = String(err && err.message ? err.message : err);
+      }
+
+      return Response.json(
+        {
+          ok: upstreamOk,
+          service: "saudi-calendar",
+          version: "3.1.0",
+          checkedAt: new Date().toISOString(),
+          latencyMs: Date.now() - startedAt,
+          upstream: {
+            source: `${RAW_BASE}/events.json`,
+            reachable: upstreamOk,
+            eventCount,
+            error: upstreamError,
+          },
+        },
+        { status: upstreamOk ? 200 : 503, headers: { "Cache-Control": "no-store" } }
+      );
     }
 
     const route = ROUTES.get(url.pathname);
@@ -62,7 +99,7 @@ export default {
     }
 
     let body = await upstream.text();
-    if (type.startsWith("text/html")) {
+    if (type.startsWith("text/html") || type.startsWith("text/calendar")) {
       body = body.replaceAll(
         "https://saudi-calendar.saudivip0o.workers.dev",
         url.origin

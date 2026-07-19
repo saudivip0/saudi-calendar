@@ -20,22 +20,49 @@ def esc(value: str) -> str:
     return (str(value).replace("\\", "\\\\").replace("\n", "\\n")
             .replace(",", "\\,").replace(";", "\\;"))
 
-def fold(line: str, limit: int = 73) -> list[str]:
-    # RFC-style folding by Unicode characters; safe and broadly compatible.
-    if len(line) <= limit:
+def fold(line: str, limit: int = 75) -> list[str]:
+    """
+    RFC 5545 folding: lines must not exceed 75 *octets* (bytes), not
+    characters. Arabic text is multi-byte in UTF-8, so folding by
+    character count (as before) could produce lines longer than the
+    spec allows. This version folds by UTF-8 byte length and never
+    splits in the middle of a multi-byte character.
+    """
+    data = line.encode("utf-8")
+    if len(data) <= limit:
         return [line]
-    out = [line[:limit]]
-    rest = line[limit:]
-    while rest:
-        out.append(" " + rest[:limit-1])
-        rest = rest[limit-1:]
+
+    out: list[str] = []
+    remaining = line
+    first = True
+    while remaining:
+        budget = limit if first else limit - 1  # continuation lines get a leading space
+        chunk = ""
+        chunk_bytes = 0
+        i = 0
+        while i < len(remaining):
+            ch = remaining[i]
+            ch_bytes = len(ch.encode("utf-8"))
+            if chunk_bytes + ch_bytes > budget:
+                break
+            chunk += ch
+            chunk_bytes += ch_bytes
+            i += 1
+        if not chunk:
+            # Safety net: a single character alone exceeds the budget
+            # (shouldn't happen for normal text) — emit it anyway.
+            chunk = remaining[0]
+            i = 1
+        out.append((chunk if first else " " + chunk))
+        remaining = remaining[i:]
+        first = False
     return out
 
 def build_calendar(events, name, description):
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//Saudi Calendar//Saudi Calendar 3.0//AR",
+        "PRODID:-//Saudi Calendar//Saudi Calendar 3.1//AR",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         f"X-WR-CALNAME:{esc(name)}",
