@@ -1,117 +1,119 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#0a7d32">
-  <title>مواعيد السعودية الرسمية</title>
-  <meta name="description" content="تقويم سعودي لمواعيد الرواتب والإجازات والتقويم الدراسي والمناسبات الوطنية والإسلامية.">
-  <style>
-    :root{
-      --green:#0a7d32;
-      --green2:#0f9f46;
-      --bg:#f4f7f5;
-      --card:#ffffff;
-      --text:#17211b;
-      --muted:#617067;
-      --border:#dce6df;
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Tahoma,Arial,sans-serif;
-      background:linear-gradient(180deg,#edf8f0 0%,var(--bg) 48%,#fff 100%);
-      color:var(--text);
-      min-height:100vh;
-    }
-    .wrap{max-width:760px;margin:auto;padding:28px 18px 48px}
-    .hero{
-      background:var(--card);
-      border:1px solid var(--border);
-      border-radius:24px;
-      padding:30px 24px;
-      box-shadow:0 14px 40px rgba(15,70,33,.08);
-      text-align:center;
-    }
-    .flag{font-size:54px;line-height:1;margin-bottom:14px}
-    h1{font-size:30px;margin:0 0 10px}
-    .lead{font-size:17px;color:var(--muted);line-height:1.9;margin:0 auto 24px;max-width:590px}
-    .btn{
-      display:block;
-      width:100%;
-      max-width:430px;
-      margin:12px auto;
-      padding:16px 20px;
-      border-radius:15px;
-      text-decoration:none;
-      font-size:18px;
-      font-weight:750;
-      border:1px solid transparent;
-    }
-    .primary{background:linear-gradient(135deg,var(--green),var(--green2));color:#fff}
-    .secondary{background:#fff;color:var(--green);border-color:#b8d8c2}
-    .note{
-      margin-top:18px;
-      font-size:14px;
-      color:var(--muted);
-      line-height:1.8;
-    }
-    .grid{display:grid;gap:14px;margin-top:20px}
-    .item{
-      background:rgba(255,255,255,.88);
-      border:1px solid var(--border);
-      border-radius:18px;
-      padding:18px;
-    }
-    .item h2{font-size:18px;margin:0 0 7px}
-    .item p{margin:0;color:var(--muted);line-height:1.8}
-    footer{text-align:center;color:#7c8981;font-size:13px;margin-top:26px;line-height:1.8}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#075f2a">
+<meta name="color-scheme" content="light dark">
+<title>التقويم السعودي</title>
+<meta name="description" content="تقويم سعودي مستقل لمواعيد الرواتب والتعليم والمناسبات الوطنية والإسلامية مع تحديث تلقائي.">
+<meta property="og:title" content="التقويم السعودي">
+<meta property="og:description" content="اشترك مرة واحدة واستقبل تحديثات المواعيد تلقائيًا.">
+<style>
+:root{--g:#075f2a;--g2:#0a8d42;--bg:#f4f8f5;--card:#fff;--text:#122019;--muted:#607067;--line:#dbe7df;--warn:#8a6a17}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Tahoma,Arial,sans-serif;background:linear-gradient(#e5f3e9 0,#f6faf7 360px,#fff 100%);color:var(--text)}
+.wrap{max-width:980px;margin:auto;padding:18px 16px 52px}.hero{background:linear-gradient(145deg,#064c22,#0a7c37);color:#fff;border-radius:28px;padding:32px 22px;box-shadow:0 18px 55px #075f2a2a}.top{display:flex;justify-content:space-between;gap:12px;align-items:center}.status{display:inline-flex;gap:8px;align-items:center;background:#ffffff17;border:1px solid #ffffff35;border-radius:999px;padding:8px 12px;font-size:13px}.dot{width:8px;height:8px;background:#75ff99;border-radius:50%;box-shadow:0 0 0 5px #75ff9922}.version{font-size:13px;color:#d8f2df}.hero h1{text-align:center;font-size:36px;margin:24px 0 8px}.lead{text-align:center;max-width:680px;margin:0 auto 22px;color:#eaf8ee;line-height:1.9}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:680px;margin:auto}.btn{border:0;border-radius:15px;padding:15px 16px;font-weight:800;font-size:16px;text-decoration:none;text-align:center;cursor:pointer}.primary{background:#fff;color:var(--g)}.ghost{background:#ffffff12;color:#fff;border:1px solid #ffffff4b}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:20px}.metric{background:#ffffff12;border:1px solid #ffffff20;border-radius:15px;padding:13px;text-align:center}.metric b{display:block;font-size:21px}.metric small{color:#d9eee0}
+.toolbar{display:grid;grid-template-columns:1fr auto;gap:10px;margin:20px 0 12px}.search{width:100%;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:15px;padding:14px 16px;font-size:16px}.select{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:15px;padding:0 13px;font-size:15px}.countdowns{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin:12px 0 24px}.count{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}.count span{font-size:24px}.count b{display:block;margin:8px 0 3px}.count small{color:var(--muted)}
+.section-title{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:25px 3px 12px}.section-title h2{margin:0}.section-title small{color:var(--muted)}
+.events{display:grid;gap:10px}.event{display:grid;grid-template-columns:84px 1fr auto;align-items:center;gap:13px;background:var(--card);border:1px solid var(--line);border-radius:17px;padding:13px}.date{background:#edf7f0;color:var(--g);border-radius:13px;text-align:center;padding:10px 6px;font-weight:850}.date small{display:block;font-weight:600;margin-top:3px}.event h3{font-size:17px;margin:0 0 5px}.event p{margin:0;color:var(--muted);font-size:13px}.tag{font-size:12px;padding:6px 9px;border-radius:999px;background:#edf7f0;color:var(--g);white-space:nowrap}.tag.expected{background:#fff5d8;color:#765710}.calendar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.calendar-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}.calendar-card h3{margin:0 0 7px}.calendar-card p{color:var(--muted);line-height:1.7;font-size:14px}.calendar-card a{display:block;text-align:center;background:var(--g);color:#fff;text-decoration:none;padding:11px;border-radius:12px;font-weight:750}.notice{margin-top:20px;background:#fff9e8;border:1px solid #ead69b;border-radius:16px;padding:15px;color:#645126;line-height:1.8}footer{text-align:center;color:var(--muted);font-size:13px;line-height:1.9;margin-top:28px}
+@media(max-width:760px){.metrics,.countdowns{grid-template-columns:1fr 1fr}.calendar-grid{grid-template-columns:1fr}.toolbar{grid-template-columns:1fr}.select{height:49px}.event{grid-template-columns:73px 1fr}.tag{grid-column:2;justify-self:start}.actions{grid-template-columns:1fr}.hero h1{font-size:30px}}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1510;--card:#151f19;--text:#eff8f1;--muted:#a7b7ac;--line:#2b3b31}body{background:linear-gradient(#0d2717 0,#0e1511 360px,#0e1511 100%)}.date,.tag{background:#1d3325}.notice{background:#282214;color:#e6d59e;border-color:#594b24}}
+</style>
 </head>
 <body>
-  <main class="wrap">
-    <section class="hero">
-      <div class="flag">🇸🇦</div>
-      <h1>مواعيد السعودية الرسمية</h1>
-      <p class="lead">
-        تقويم موحّد لمواعيد الرواتب ومعاشات التقاعد والإجازات المدرسية
-        والمناسبات الوطنية والإسلامية والفصول.
-      </p>
+<main class="wrap">
+<section class="hero">
+<div class="top"><div class="status"><span class="dot"></span> النظام يعمل</div><div class="version">الإصدار 3.0</div></div>
+<h1>🇸🇦 التقويم السعودي</h1>
+<p class="lead">تقويم مستقل يجمع المواعيد المهمة في السعودية. اشترك مرة واحدة، وستصل تحديثات المواعيد تلقائيًا دون إعادة التنزيل.</p>
+<div class="actions">
+<a class="btn primary" href="webcal://saudi-calendar.saudivip0o.workers.dev/saudi-calendar.ics">اشترك في التقويم الشامل</a>
+<button class="btn ghost" id="copy">نسخ رابط الاشتراك</button>
+</div>
+<div class="metrics">
+<div class="metric"><b id="eventCount">—</b><small>حدثًا</small></div>
+<div class="metric"><b id="categoryCount">—</b><small>تصنيفات</small></div>
+<div class="metric"><b>6 س</b><small>دورة التحديث</small></div>
+<div class="metric"><b id="updated">—</b><small>آخر تحديث</small></div>
+</div>
+</section>
 
-      <a class="btn primary"
-         href="webcal://saudivip0.github.io/saudi-calendar/saudi-calendar.ics">
-        الاشتراك في التقويم
-      </a>
+<div class="toolbar">
+<input class="search" id="search" type="search" placeholder="ابحث: راتب، رمضان، الدراسة…">
+<select class="select" id="category"><option value="">جميع التصنيفات</option></select>
+</div>
 
-      <a class="btn secondary"
-         href="https://saudivip0.github.io/saudi-calendar/saudi-calendar.ics">
-        تنزيل ملف التقويم
-      </a>
+<section class="countdowns" id="countdowns"></section>
 
-      <p class="note">
-        للاشتراك والتحديث التلقائي استخدم زر «الاشتراك في التقويم».
-        أما زر التنزيل فيضيف نسخة ثابتة لا تتحدث تلقائيًا.
-      </p>
-    </section>
+<div class="section-title"><h2>المواعيد القادمة</h2><small id="resultCount"></small></div>
+<section class="events" id="events"><div class="event">جارٍ تحميل البيانات…</div></section>
 
-    <section class="grid">
-      <div class="item">
-        <h2>على iPhone وiPad وMac</h2>
-        <p>اضغط «الاشتراك في التقويم»، ثم وافق على إضافة التقويم المشترك.</p>
-      </div>
-      <div class="item">
-        <h2>المشاركة مع الآخرين</h2>
-        <p>شارك رابط هذه الصفحة، وسيتمكن أي شخص من الاشتراك من جهازه.</p>
-      </div>
-      <div class="item">
-        <h2>التحديثات</h2>
-        <p>عند تحديث ملف التقويم في GitHub تصل التغييرات لاحقًا إلى المشتركين حسب دورة تحديث تطبيق التقويم.</p>
-      </div>
-    </section>
+<div class="section-title"><h2>اختر التقويم المناسب</h2><small>يمكن الاشتراك في أكثر من تقويم</small></div>
+<section class="calendar-grid">
+<article class="calendar-card"><h3>🇸🇦 التقويم الشامل</h3><p>جميع المواعيد في اشتراك واحد.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/saudi-calendar.ics">اشتراك</a></article>
+<article class="calendar-card"><h3>💰 الرواتب</h3><p>رواتب الموظفين ومعاشات التقاعد.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/salaries.ics">اشتراك</a></article>
+<article class="calendar-card"><h3>🎓 التعليم</h3><p>بدايات الدراسة والإجازات التعليمية.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/education.ics">اشتراك</a></article>
+<article class="calendar-card"><h3>🕌 المناسبات الإسلامية</h3><p>المواعيد الهجرية مع توضيح المتوقع منها.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/islamic.ics">اشتراك</a></article>
+<article class="calendar-card"><h3>🇸🇦 المناسبات الوطنية</h3><p>اليوم الوطني ويوم التأسيس.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/national.ics">اشتراك</a></article>
+<article class="calendar-card"><h3>🌤️ الفصول والمواسم</h3><p>بدايات الفصول الفلكية.</p><a href="webcal://saudi-calendar.saudivip0o.workers.dev/seasons.ics">اشتراك</a></article>
+</section>
 
-    <footer>
-      بعض المواعيد الهجرية موضحة بأنها متوقعة وقد تتغير بحسب الإعلان الرسمي وثبوت رؤية الهلال.
-    </footer>
-  </main>
+<div class="notice"><b>تنبيه:</b> هذا مشروع مستقل وغير تابع لجهة حكومية. التواريخ المتوقعة، وخصوصًا الهجرية، قد تتغير؛ وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.</div>
+<footer>© 2026 التقويم السعودي — مشاركة رابط الاشتراك مسموحة، ويمنع انتحال اسم المشروع أو إعادة بيعه دون إذن.</footer>
+</main>
+<script>
+const ORIGIN=location.origin;
+const state={all:[],filtered:[]};
+const fmtDate=d=>new Intl.DateTimeFormat('ar-SA',{weekday:'long',day:'numeric',month:'long',year:'numeric'}).format(d);
+const daysBetween=(a,b)=>Math.ceil((b-a)/86400000);
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+
+document.getElementById('copy').onclick=async()=>{
+  const url=ORIGIN+'/saudi-calendar.ics';
+  try{await navigator.clipboard.writeText(url);const b=document.getElementById('copy');b.textContent='تم النسخ ✓';setTimeout(()=>b.textContent='نسخ رابط الاشتراك',1600)}
+  catch{prompt('انسخ الرابط:',url)}
+};
+
+function render(){
+  const q=document.getElementById('search').value.trim().toLowerCase();
+  const category=document.getElementById('category').value;
+  const now=new Date(); now.setHours(0,0,0,0);
+  state.filtered=state.all.filter(e=>{
+    const hay=[e.title,e.category,e.description,e.source].join(' ').toLowerCase();
+    return (!q||hay.includes(q))&&(!category||e.category===category);
+  });
+  const future=state.filtered.filter(e=>new Date(e.date+'T00:00:00')>=now).slice(0,50);
+  document.getElementById('resultCount').textContent=`${future.length} نتيجة`;
+  document.getElementById('events').innerHTML=future.length?future.map(e=>{
+    const d=new Date(e.date+'T00:00:00');
+    const day=new Intl.DateTimeFormat('ar-SA',{day:'numeric'}).format(d);
+    const month=new Intl.DateTimeFormat('ar-SA',{month:'short'}).format(d);
+    const certainty=e.certainty==='expected'?'متوقع':e.certainty==='confirmed'?'مؤكد':'مجدول';
+    return `<article class="event"><div class="date">${day}<small>${month}</small></div><div><h3>${esc((e.emoji||'')+' '+e.title)}</h3><p>${esc(fmtDate(d))} · ${esc(e.source)}</p></div><span class="tag ${e.certainty==='expected'?'expected':''}">${certainty}</span></article>`
+  }).join(''):'<article class="event">لا توجد نتائج مطابقة.</article>';
+}
+
+fetch('/events.json',{cache:'no-store'}).then(r=>r.json()).then(data=>{
+  state.all=data.events.sort((a,b)=>a.date.localeCompare(b.date));
+  const categories=[...new Set(state.all.map(e=>e.category))];
+  document.getElementById('eventCount').textContent=state.all.length;
+  document.getElementById('categoryCount').textContent=categories.length;
+  document.getElementById('updated').textContent=new Date(data.updatedAt).toLocaleDateString('ar-SA',{day:'numeric',month:'short'});
+  document.getElementById('category').innerHTML+=[...categories].map(c=>`<option>${esc(c)}</option>`).join('');
+  const now=new Date();now.setHours(0,0,0,0);
+  const important=['راتب موظفي الدولة','معاش التقاعد','بداية الدراسة للطلاب','اليوم الوطني'];
+  const icons=['💰','👴','🎓','🇸🇦'];
+  document.getElementById('countdowns').innerHTML=important.map((title,i)=>{
+    const e=state.all.find(x=>x.title.includes(title)&&new Date(x.date+'T00:00:00')>=now);
+    if(!e)return '';
+    const d=new Date(e.date+'T00:00:00'), days=daysBetween(now,d);
+    return `<article class="count"><span>${icons[i]}</span><b>${esc(title)}</b><small>${days===0?'اليوم':`بعد ${days} يوم`}</small></article>`;
+  }).join('');
+  render();
+}).catch(()=>document.getElementById('events').innerHTML='<article class="event">تعذر تحميل بيانات المواعيد.</article>');
+
+document.getElementById('search').addEventListener('input',render);
+document.getElementById('category').addEventListener('change',render);
+</script>
 </body>
 </html>

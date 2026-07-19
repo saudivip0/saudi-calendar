@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Saudi Calendar//Saudi Calendar 3.0//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:التقويم السعودي — المناسبات الوطنية
+X-WR-CALDESC:مواعيد المناسبات الوطنية من التقويم السعودي.
+X-WR-TIMEZONE:Asia/Riyadh
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:fed4e90e-cd4d-4965-9562-0a34de4c4c1e@openai.local
+DTSTAMP:20260719T025304Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260927
+SUMMARY:🇸🇦 إجازة اليوم الوطني للمدارس
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
+ المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: المناسبات الوطنية\nالحالة: م
+ جدول\nالمصدر المرجعي: الجهات الرسمية السعودية\nتنبيه: هذا تقويم مستقل، و
+ عند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-c
+ alendar.saudivip0o.workers.dev
+CATEGORIES:المناسبات الوطنية
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🇸🇦 إجازة اليوم الوطني للمدارس
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4283ac6b-476f-44de-bbbf-72fb9462b877@openai.local
+DTSTAMP:20260719T025304Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:🇸🇦 اليوم الوطني السعودي 96
+DESCRIPTION:اليوم الوطني للمملكة العربية السعودية.\nالتصنيف: المناسبات ال
+ وطنية\nالحالة: مجدول\nالمصدر المرجعي: الجهات الرسمية السعودية\nتنبيه: هذ
+ ا تقويم مستقل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع:
+  https://saudi-calendar.saudivip0o.workers.dev
+CATEGORIES:المناسبات الوطنية
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🇸🇦 اليوم الوطني السعودي 96
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8baca73c-42cb-46a3-b8f9-67ec0fe1a01a@openai.local
+DTSTAMP:20260719T025304Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270223
+SUMMARY:🇸🇦 إجازة يوم التأسيس للمدارس
+DESCRIPTION:ضمن التقويم الدراسي للعام 1448–1449هـ / 2026–2027م، مع تطبيق 
+ المواعيد الخاصة بالمدينة المنورة.\nالتصنيف: المناسبات الوطنية\nالحالة: م
+ جدول\nالمصدر المرجعي: الجهات الرسمية السعودية\nتنبيه: هذا تقويم مستقل، و
+ عند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://saudi-c
+ alendar.saudivip0o.workers.dev
+CATEGORIES:المناسبات الوطنية
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🇸🇦 إجازة يوم التأسيس للمدارس
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:df41a7e5-d09d-49cf-befe-6e859b144f85@openai.local
+DTSTAMP:20260719T025304Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:🇸🇦 يوم التأسيس السعودي
+DESCRIPTION:ذكرى تأسيس الدولة السعودية.\nالتصنيف: المناسبات الوطنية\nالحا
+ لة: مجدول\nالمصدر المرجعي: الجهات الرسمية السعودية\nتنبيه: هذا تقويم مست
+ قل، وعند التعارض يُعتمد إعلان الجهة الرسمية المختصة.\nالموقع: https://sa
+ udi-calendar.saudivip0o.workers.dev
+CATEGORIES:المناسبات الوطنية
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:🇸🇦 يوم التأسيس السعودي
+END:VALARM
+END:VEVENT
+END:VCALENDAR

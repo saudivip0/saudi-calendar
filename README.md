@@ -1,2 +1,13 @@
-# saudi-calendar
-Saudi Calendar - Salaries, Holidays, School Calendar and Islamic Events
+# 🇸🇦 Saudi Calendar 3.0 — Flat Edition
+
+هذه نسخة مخصصة للرفع بسهولة من الآيفون. جميع الملفات توضع في الصفحة الرئيسية لمستودع GitHub، ولا تحتاج إلى إنشاء مجلدات.
+
+الملف الرئيسي للاشتراك:
+`saudi-calendar.ics`
+
+لتحديث البيانات لاحقًا:
+1. عدّل `events.json`.
+2. شغّل `python3 build.py`.
+3. ارفع الملفات الناتجة.
+
+هذا مشروع مستقل وغير تابع لجهة حكومية.

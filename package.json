@@ -1,4 +1,12 @@
 {
-  "name": "saudi-calendar-worker",
-  "private": true
+  "name": "saudi-calendar",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "build": "python3 build.py",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
 }
